@@ -13,7 +13,7 @@
 .header__logo {
     width: 120px;
     height: 30px;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/header/osd-logo-white.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/header/osd-logo-white.png");
     background-size: contain;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 
 .header__logo.--for-blog {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/header/osd-logo-white-all.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/header/osd-logo-white-all.png");
 }
 
 .header-container .register-btn {
@@ -54,7 +54,7 @@
 
 .header-container .nav-link.dropdown-toggle::after {
     border: none;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
     background-repeat: no-repeat;
     background-position: -15px -4px;
     width: 15px;
@@ -410,7 +410,7 @@
 .header-container.responsive .header__logo,
 .header-container.white-header .header__logo,
 .header-container.show-dropdown-menu .header__logo {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/header/osd-logo-black.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/header/osd-logo-black.png");
 }
 
 .header-container.on-scroll-background .header__language-en.nav-link,

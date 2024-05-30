@@ -1,13 +1,13 @@
 /* Overwrite base HTML style */
 @font-face {
     font-family: "Geo706-BlackBT";
-    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.eot");
-    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.eot@") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.svg") format("svg");
+    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.eot");
+    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.eot@") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/geo706k/geometric-706-black-bt-webfont.svg") format("svg");
 }
     @font-face {
     font-family: "Tt0663";
-    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/tt0663/tt0663m.eot");
-    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/tt0663/tt0663m.eot@") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/tt0663/tt0663m.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/tt0663/tt0663m.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/fonts/font-awesome/tt0663/tt0663m.svg") format("svg");
+    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/tt0663/tt0663m.eot");
+    src: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/tt0663/tt0663m.eot@") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/tt0663/tt0663m.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/tt0663/tt0663m.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/fonts/font-awesome/tt0663/tt0663m.svg") format("svg");
 }
 
 /* nunito-sans-latin-wght-normal */
@@ -507,7 +507,7 @@ a.text-link-underline:hover {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
     background-position: -29px -27px;
     margin: 0 4px;
 }
@@ -957,7 +957,7 @@ a.read-more.arrow:hover {
 .arrow .arrow-read-more {
     width: 15px;
     height: 11px;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
     background-repeat: no-repeat;
     background-position: 0px -5px;
     position: absolute;
@@ -1052,7 +1052,7 @@ a.read-more.arrow:hover {
     position: absolute;
     width: 23px;
     height: 45px;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
     background-repeat: no-repeat;
     top: 50%;
     transform: translateY(-50%);
@@ -1087,11 +1087,11 @@ a.read-more.arrow:hover {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/arrow-prev.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-prev.png");
     display: none;
 }
 .carousel-control-next-icon {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/arrow-next.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-next.png");
     display: none;
 }
 
@@ -1365,7 +1365,7 @@ a.read-more.arrow:hover {
     top: 56%;
     transform: translateY(-50%) rotateX(180deg);
     transition: 0.35s;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png);
     background-repeat: no-repeat;
     background-position: -33px -2px;
 }

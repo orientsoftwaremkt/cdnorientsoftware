@@ -194,7 +194,7 @@
     margin-bottom: 100px;
     height: 480px;
     position: relative;
-    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/careers/Career-page-1.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/careers/Career-page-1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -447,12 +447,12 @@
 }
 
 .sprite-career-icon.sprite-career-icon__vacancy{
-    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/careers/career-icon.png");
+    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/careers/career-icon.png");
     background-position-x: -10px;
 }
 
 .sprite-career-icon.sprite-career-icon__date {
-    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/careers/career-icon.png");
+    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/careers/career-icon.png");
     background-position-x: -50px;
 }
 

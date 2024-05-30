@@ -44,7 +44,7 @@
 
 .sprite-icon {
     background-color: #fff;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/landing-page/icon/sprite-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page/icon/sprite-icon.png);
     background-repeat: no-repeat;
     display: inline-block;
     width: 40px;
@@ -96,7 +96,7 @@
 
 
 .sprite-icon-action {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/landing-page/icon/sprite-icon-actions.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page/icon/sprite-icon-actions.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -497,39 +497,39 @@
 }
 
 .blog-panel-share-twitter {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-twitter-normal.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-twitter-normal.svg");
 }
 
 .blog-panel-share-linkedin {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-linkedin-normal.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-linkedin-normal.svg");
 }
 
 .blog-panel-share-facebook {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-facebook-normal.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-facebook-normal.svg");
     margin-bottom: 40px;
 }
 
 .blog-panel-share-backtotop {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-backtotop-normal.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-backtotop-normal.svg");
     position: fixed;
     bottom: 80px;
     right: 30px;
 }
 
 .blog-panel-share-twitter:hover {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-twitter-hover.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-twitter-hover.svg");
 }
 
 .blog-panel-share-linkedin:hover {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-linkedin-hover.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-linkedin-hover.svg");
 }
 
 .blog-panel-share-facebook:hover {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-facebook-hover.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-facebook-hover.svg");
 }
 
 .blog-panel-share-backtotop:hover {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-backtotop-hover.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-backtotop-hover.svg");
 }
 
 .modal-open {
@@ -725,7 +725,7 @@ a.see-more {
     font-weight: 700;
 }
 a.see-more::after {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png);
     background-position: -98px -98px;
     background-repeat: no-repeat;
     position: absolute;
@@ -773,7 +773,7 @@ a.see-more::after {
 }
 
 .icon-sharing {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/osd-website-social-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/osd-website-social-icon.png");
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -853,7 +853,7 @@ a.see-more::after {
 }
 
 .close-button {
-    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/close_small.png") no-repeat center center;
+    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/close_small.png") no-repeat center center;
     background-size: 30px 30px;
     margin-top: 20px;
     padding-top: 30px;
@@ -1342,7 +1342,7 @@ h1.five-tips-title {
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.08);
     padding: 30px 15px;
     margin-top: 70px;
-    background: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/news/news-quotebg.png) center bottom #fff no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/news/news-quotebg.png) center bottom #fff no-repeat;
     background-size: contain;
 }
 
@@ -1429,7 +1429,7 @@ h1.five-tips-title {
 }
 
 .news-quote--1-column {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/news/news-quotebg-1-column.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/news/news-quotebg-1-column.png);
     background-position: left top;
     padding: 50px;
     margin: 50px 0;
@@ -1536,7 +1536,7 @@ img.lazy-load.loaded {
 /* CONTACT PAGE */
 .contact-banner {
     position: relative;
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/contact/contact-banner-2.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/contact/contact-banner-2.jpg");
     background-color: #333;
     background-size: cover;
     background-position: center bottom;
@@ -1591,7 +1591,7 @@ img.lazy-load.loaded {
 }
 
 .google-map-icon span {
-    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/google-icons.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/google-icons.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     width: 22px;
@@ -1736,7 +1736,7 @@ img.lazy-load.loaded {
     height: 32px;
     width: 34px;
     border: none;
-    background: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/magnifier.png) no-repeat center center;
+    background: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/magnifier.png) no-repeat center center;
     background-size: 55%;
 }
 
@@ -1930,7 +1930,7 @@ img.lazy-load.loaded {
 }
 
 .related-posts.owl-carousel .owl-nav button {
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/arrow.svg');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow.svg');
     background-size: contain;
     background-color: transparent;
     width: 45px;
@@ -1938,7 +1938,7 @@ img.lazy-load.loaded {
 }
 
 .related-posts.owl-carousel .owl-nav button:hover {
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/arrow-hover.svg');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-hover.svg');
 }
 
 .related-posts.owl-carousel .owl-nav .owl-prev {
@@ -2480,7 +2480,7 @@ a.article-detail__topic {
         background-position: left top;
         background-size:100% auto;
         background-repeat:no-repeat;
-        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2021-10-13/software-engineering-practices-background-1.png);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2021-10-13/software-engineering-practices-background-1.png);
     }
 }
 
@@ -2758,35 +2758,35 @@ a.article-detail__topic {
 }
 
 .software-outsourcing-part-2 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-2-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-2-mobile.jpg);
 }
 
 .software-outsourcing-part-3 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-3-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-3-mobile.jpg);
 }
 
 .software-outsourcing-part-4 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-4-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-4-mobile.jpg);
 }
 
 .software-outsourcing-part-5 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-5-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-5-mobile.jpg);
 }
 
 .software-outsourcing-part-6 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-6-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-6-mobile.jpg);
 }
 
 .software-outsourcing-part-7 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-7-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-7-mobile.jpg);
 }
 
 .software-outsourcing-part-8 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-8-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-8-mobile.jpg);
 }
 
 .software-outsourcing-part-9 {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-9-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2020-09-09/osd-software-outsourcing-part-9-mobile.jpg);
 }
 
 @media (min-width:768px) {
@@ -2856,7 +2856,7 @@ a.article-detail__topic {
 }
 
 .case-study-list__banner {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/portfolio/case-study-banner.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/portfolio/case-study-banner.jpg);
     height: 685px;
     background-size: cover;
 }
@@ -3031,7 +3031,7 @@ a.case-study-list__item__read-more:hover {
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/portfolio/portfolio-pattern.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/portfolio/portfolio-pattern.png);
 }
 
 .case-study-detail {
@@ -3047,7 +3047,7 @@ a.case-study-list__item__read-more:hover {
 
 .case-study-detail__related-post {
     padding: 50px 0;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/portfolio/case-study-related-post-background.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/portfolio/case-study-related-post-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -3187,7 +3187,7 @@ a.case-study-list__item__read-more:hover {
 
     .case-study-detail__text--intro-background {
         background-color: #fff;
-        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/portfolio/case-study-intro-background.png);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/portfolio/case-study-intro-background.png);
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
@@ -3568,7 +3568,7 @@ a.case-study-list__item__read-more:hover {
 .pager-previous {
     height: 17px;
     width: 15px;
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png');
     background-position: 40px 47px;
     display: inline-block;
     margin-top: 10px;
@@ -3577,7 +3577,7 @@ a.case-study-list__item__read-more:hover {
 .pager-next {
     height: 17px;
     width: 15px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png);
     background-position: 60px 47px;
     display: inline-block;
     margin-top: 10px;
@@ -3595,7 +3595,7 @@ a.case-study-list__item__read-more:hover {
 .pager-first {
     height: 17px;
     width: 15px;
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png');
     background-position: -108px 173px;
     display: inline-block;
     margin-top: 10px;
@@ -3604,7 +3604,7 @@ a.case-study-list__item__read-more:hover {
 .pager-last {
     height: 17px;
     width: 15px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png);
     background-position: -87px 173px;
     display: inline-block;
     margin-top: 10px;
@@ -3920,7 +3920,7 @@ a.technology-list__item-name:hover {
 .carousel-custom-dot .owl-nav button.owl-next,
 .carousel-custom-dot .owl-nav button.owl-prev {
     text-indent: 99999px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/landing-page/icon/sprite-icon-arrows.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page/icon/sprite-icon-arrows.png);
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
@@ -4127,7 +4127,7 @@ a.technology-list__item-name:hover {
     content: "";
     width: 20px;
     height: 20px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-tick-mark.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-tick-mark.png);
     background-size: contain;
     background-repeat: no-repeat;
     left: 0;
@@ -4135,7 +4135,7 @@ a.technology-list__item-name:hover {
 }
 
 .pillar-custom-list-icon.--white-icon li::before {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/icon-tick-mark-white.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-tick-mark-white.png);
 }
 
 .pillar-t-shape-content {
@@ -4478,7 +4478,7 @@ h2.pillar-section-title {
     content: "";
     width: 30px;
     height: 30px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/services/icon-check-mark.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/services/icon-check-mark.png);
     background-size: contain;
     left: -45px;
     top: 1px;
@@ -4702,10 +4702,10 @@ h2.pillar-section-title {
 }
 
 .icon-pros::before {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2022-10-03/icon-thumb-up.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2022-10-03/icon-thumb-up.png);
 }
 .icon-cons::before {
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/blog/2022-10-03/icon-thumb-down.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/blog/2022-10-03/icon-thumb-down.png);
 }
 
 
