@@ -1,5 +1,5 @@
 .how-we-work__main-content {
-    background-image: url(/Themes/Content/Images/how-we-work/how-we-work-background.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/how-we-work/how-we-work-background.png);
     background-color: #efefef;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 .how-we-work__our-approach-button {
     background-color: #fff;
-    background-image: url(/Themes/Content/Images/how-we-work/how-we-work-icon.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/how-we-work/how-we-work-icon.png);
     background-repeat: no-repeat;
     background-position: 5px center;
     background-size: auto 70px;

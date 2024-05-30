@@ -5,7 +5,7 @@
 
 .about-us__cover {
     padding: 100px 0;
-    background-image: url(/Themes/Content/Images/about-us/about-us-cover.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/about-us/about-us-cover.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -551,7 +551,7 @@ div.team-management-info {
 
 /* START WHY ORIENT SOFTWARE PAGE */
 .company__why-orient {
-    background-image: url(/Themes/Content/Images/company/why-orient/why-orient-software-background.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/company/why-orient/why-orient-software-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #f5f5f5;

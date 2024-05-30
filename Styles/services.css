@@ -30,7 +30,7 @@
     color: #fff;
     border-radius: 50px;
     padding: 15px 70px 15px 30px;
-    background-image: url("/Themes/Content/Images/icon/spirte-arrow-icon.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/icon/spirte-arrow-icon.png");
     background-color: #ea2323;
     background-repeat: no-repeat;
 }
@@ -397,17 +397,17 @@
 /* BOT banner */
 
 .bot-banner {
-    background-image: url("/Themes/Content/Images/bot/Orient_BOT_Banner-BG.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/bot/Orient_BOT_Banner-BG.jpg");
 }
 @media (max-width: 991px) {
     .bot-banner {
-        background-image: url("/Themes/Content/Images/bot/BOT-tablet-banner.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/bot/BOT-tablet-banner.jpg");
         background-position-y: center;
     }
 }
 @media (max-width: 767px) {
     .bot-banner {
-        background-image: url("/Themes/Content/Images/bot/BOT-mobile-banner.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/bot/BOT-mobile-banner.jpg");
     }
 }
 
@@ -427,7 +427,7 @@
 /* BEGIN DEDICATED TEAM */
 
 .dedicated-team-banner {
-    background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-Team-banner.jpg');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/dedicated-team/Dedicated-Team-banner.jpg');
 }
 
 .our-hr-process .service-timeline-text h2 {
@@ -438,7 +438,7 @@
 /* Building dedicated team */
 
 .dedicated-team-advantages {
-    background-image: url("/Themes/Content/Images/dedicated-team/Dedicated-Team-Section03.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/dedicated-team/Dedicated-Team-Section03.jpg");
     background-size: cover;
     background-position: center bottom;
 }
@@ -468,7 +468,7 @@
 
 /* Dedicated team info box */
 .dedicated-team-infobox {
-    background-image: url("/Themes/Content/Images/dedicated-team/InfoBox-BG.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/dedicated-team/InfoBox-BG.jpg");
     background-size: cover;
     background-position: center bottom;
     padding-top: 60px;
@@ -484,7 +484,7 @@
 
 @media (max-width:991px) {
     .dedicated-team-banner {
-        background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-team-tablet-banner.jpg');
+        background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/dedicated-team/Dedicated-team-tablet-banner.jpg');
     }
     .dedicated-team h2 {
         margin-bottom: 80px;
@@ -503,7 +503,7 @@
 
 @media (max-width:767px) {
     .dedicated-team-banner {
-        background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-team-mobile-banner.jpg');
+        background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/dedicated-team/Dedicated-team-mobile-banner.jpg');
     }
     .dedicated-team h2 {
         margin-bottom: 60px;
@@ -538,7 +538,7 @@
 /* BEGIN CLOUD COMPUTING */
 
 .cloud-computing-banner {
-    background-image: url('/Themes/Content/Images/cloud-and-devops/Could-and-DevOp-Banner-BG.jpg');
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/cloud-and-devops/Could-and-DevOp-Banner-BG.jpg');
 }
 
 .devops-methodology img {
@@ -546,7 +546,7 @@
 }
 
 .cloud-devops-relationship {
-    background-image: url("/Themes/Content/Images/cloud-and-devops/Could-and-DevOp-Section03-BG.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/cloud-and-devops/Could-and-DevOp-Section03-BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -576,13 +576,13 @@
 
 @media (max-width: 991px) {
     .cloud-computing-banner {
-        background-image: url('/Themes/Content/Images/cloud-and-devops/Cloud-and-devOps-tablet-banner.jpg');
+        background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/cloud-and-devops/Cloud-and-devOps-tablet-banner.jpg');
         background-position-y: center;
     }
 }
 @media (max-width: 767px) {
     .cloud-computing-banner {
-        background-image: url('/Themes/Content/Images/cloud-and-devops/Cloud-and-devOps-mobile-banner.jpg');
+        background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/cloud-and-devops/Cloud-and-devOps-mobile-banner.jpg');
     }
 }
 
@@ -653,18 +653,18 @@
 /* PRODUCT DEVELOPMENT */
 
 .software-product-development-banner {
-    background-image: url(/Themes/Content/Images/software-product-development/Product-Development-desktop-banner.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Development-desktop-banner.jpg);
 }
 
 .product-dev-background-img-left {
-    background-image: url(/Themes/Content/Images/software-product-development/background-img-left.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/background-img-left.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 60%;
 }
 
 .product-dev-background-img-right {
-    background-image: url(/Themes/Content/Images/software-product-development/background-img-right.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/background-img-right.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: auto 60%;
@@ -675,7 +675,7 @@
 }
 
 .product-team-background {
-    background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-desktop-banner.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Scaling-Up-Product-Team-desktop-banner.jpg);
     background-size: cover;
     background-position: center center;
     min-height: 700px;
@@ -687,7 +687,7 @@
 }
 
 .product-enhancements-background {
-    background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-desktop-banner.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Enhancements-Maintenance-desktop-banner.png);
     background-size: cover;
     background-position: center center;
     min-height: 700px;
@@ -695,14 +695,14 @@
 
 @media (max-width: 991px) {
     .software-product-development-banner {
-        background-image: url(/Themes/Content/Images/software-product-development/Product-Development-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Development-tablet-banner.jpg);
         background-position-y: top;
     }
     .product-team-background {
-        background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Scaling-Up-Product-Team-tablet-banner.jpg);
     }
     .product-enhancements-background {
-        background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Enhancements-Maintenance-tablet-banner.jpg);
     }
 
     .product-team-development-border.red-box {
@@ -717,13 +717,13 @@
 }
 @media (max-width: 767px) {
     .software-product-development-banner {
-        background-image: url(/Themes/Content/Images/software-product-development/Product-Development-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Development-mobile-banner.jpg);
     }
     .product-team-background {
-        background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Scaling-Up-Product-Team-mobile-banner.jpg);
     }
     .product-enhancements-background {
-        background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/software-product-development/Product-Enhancements-Maintenance-mobile-banner.jpg);
     }
 }
 
@@ -736,11 +736,11 @@
 }
 
 .iot-banner {
-    background-image: url(/Themes/Content/Images/iot/IOT-Banner_BG.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/iot/IOT-Banner_BG.jpg);
 }
 
 .iot-background {
-    background-image: url(/Themes/Content/Images/iot/IOT-Banner-BG-Section02.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/iot/IOT-Banner-BG-Section02.jpg);
     background-size: cover;
     background-position: center center;
     min-height: 700px;
@@ -788,7 +788,7 @@
 
 @media screen and (max-width: 991px) {
     .iot-banner {
-        background-image: url(/Themes/Content/Images/iot/IOT-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/iot/IOT-tablet-banner.jpg);
     }
     .iot-message:before {
         display: none;
@@ -806,7 +806,7 @@
 
 @media screen and (max-width: 767px) {
     .iot-banner {
-        background-image: url(/Themes/Content/Images/iot/IOT-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/iot/IOT-mobile-banner.jpg);
     }
     .internet-of-things .osd-testimonials__profile-pic.active {
         width: 106px;
@@ -999,7 +999,7 @@
     color: #ea2323;
 }
 .why-outsourcing-banner {
-    background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-desktop-banner.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/10-reasons-why-outsourcing-desktop-banner.jpg);
 }
 
 .why-outsourcing-number {
@@ -1027,13 +1027,13 @@
     background-color: #fff6f6;
 }
 .why-outsourcing-background {
-    background-image: url(/Themes/Content/Images/why-outsourcing/Section02-Banner-BG.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/Section02-Banner-BG.png);
     background-size: cover;
     background-position: center right;
     min-height: 700px;
 }
 .get-started-outsourcing {
-    background-image: url(/Themes/Content/Images/why-outsourcing/BG-02.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/BG-02.png);
     background-repeat: repeat-x;
 }
 .get-started-outsourcing h2 {
@@ -1053,7 +1053,7 @@
     color: #ea2222
 }
 .common-outsourcing-background {
-    background-image: url(/Themes/Content/Images/why-outsourcing/BG.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/BG.jpg);
     background-repeat: repeat-x;
 }
 .common-outsourcing-background h3 {
@@ -1062,7 +1062,7 @@
 .why-outsourcing-cta-background {
     padding: 60px 15px;
     text-align: center;
-    background-image: url(/Themes/Content/Images/why-outsourcing/bg-CTA-button.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/bg-CTA-button.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1103,7 +1103,7 @@
 }
 @media (max-width: 991px) {
     .why-outsourcing-banner {
-        background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/10-reasons-why-outsourcing-tablet-banner.jpg);
     }
     .why-outsourcing-background {
         padding: 0;
@@ -1119,7 +1119,7 @@
 }
 @media (max-width: 767px) {
     .why-outsourcing-banner {
-        background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/10-reasons-why-outsourcing-mobile-banner.jpg);
     }
     .why-outsourcing-software-dev-border.red-box {
         padding: 60px 20px;
@@ -1161,7 +1161,7 @@
 }
 
 .why-outsource-to-vn-banner {
-    background-image: url("/Themes/Content/Images/why-outsource-to-vietnam/why-outsource-to-vn-banner02.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsource-to-vietnam/why-outsource-to-vn-banner02.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -1186,7 +1186,7 @@
 }
 
 .outsource-benefit {
-    background: url("/Themes/Content/Images/why-outsource-to-vietnam/benefit-of-outsourcing.png") no-repeat;
+    background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsource-to-vietnam/benefit-of-outsourcing.png") no-repeat;
     background-size: cover;
     background-position: center bottom;
 }
@@ -1368,7 +1368,7 @@
         content: "";
         width: 100%;
         height: 100%;
-        background: url("/Themes/Content/Images/why-outsource-to-vietnam/save-cost-background-left.png") no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsource-to-vietnam/save-cost-background-left.png") no-repeat;
         background-position: left bottom;
         bottom: -120px;
         left: 0;
@@ -1379,7 +1379,7 @@
         content: "";
         width: 100%;
         height: 100%;
-        background: url("/Themes/Content/Images/why-outsource-to-vietnam/save-cost-background-right.png") no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsource-to-vietnam/save-cost-background-right.png") no-repeat;
         background-position: right bottom;
         bottom: -60px;
         right: 0;
@@ -1429,7 +1429,7 @@
     font-size: 40px;
 }
 .why-outsourcing-faq-banner {
-    background-image: url(/Themes/Content/Images/why-outsourcing-faq/faq-banner.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing-faq/faq-banner.png);
 }
 
 .osd-tab__nav {
@@ -1544,7 +1544,7 @@
     color: #ea2323;
 }
 .web-app-development-banner {
-    background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Web-Application-Development-Orientsoftware.jpg);
 }
 
 .web-app-development-text__left {
@@ -1620,7 +1620,7 @@
     left: auto;
 }
 .os-you-get__background-img {
-    background-image: url(/Themes/Content/Images/web-app-development/Tech-BG.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Tech-BG.jpg);
     background-size: cover;
     background-position: center bottom;
 }
@@ -1629,7 +1629,7 @@
     color: #ffffff;
 }
 .os-you-get__background-img ul {
-    list-style-image: url(/Themes/Content/Images/web-app-development/checked.png);
+    list-style-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/checked.png);
 }
 .os-you-get__background-img ul li {
     padding-bottom: 60px;
@@ -1673,10 +1673,10 @@
 
 @media (max-width:991px) {
     .web-app-development-banner {
-        background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-tablet-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-tablet-banner.jpg);
     }
     .os-you-get__background-img {
-        background-image: url(/Themes/Content/Images/web-app-development/Tech-Tablet-BG.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Tech-Tablet-BG.jpg);
     }
 
     .how-to-get-started-img--bottom-line{
@@ -1709,10 +1709,10 @@
 }
 @media (max-width:767px) {
     .web-app-development-banner {
-        background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-mobile-banner.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-mobile-banner.jpg);
     }
     .os-you-get__background-img {
-        background-image: url(/Themes/Content/Images/web-app-development/Tech-Mobile-BG.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/web-app-development/Tech-Mobile-BG.jpg);
     }
     .during-the-web h2 {
         margin-bottom: 60px;
@@ -1732,7 +1732,7 @@
 
 /* MOBILE APPLICATION DEVELOPMENT */
 .mobile-app-development-banner {
-    background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware.jpg");
 }
 .mobile-app-development__how-we-do-it .service-timeline-text::after {
     box-shadow: inset 0 0 0 15px #f5f5f5;
@@ -1746,13 +1746,13 @@
 }
 @media (max-width:991px) {
     .mobile-app-development-banner {
-        background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-tablet-banner.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-tablet-banner.jpg");
         background-position-y: center;
     }
 }
 @media (max-width:767px) {
     .mobile-app-development-banner {
-        background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-mobile-banner.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-mobile-banner.jpg");
     }
     .mobile-app-development__areas-of-expertise .service-section-intro {
         margin-bottom: 40px;
@@ -1763,7 +1763,7 @@
 /* QA-AND-TESTING */
 
 .qa-and-software-testing-banner {
-    background-image: url(/Themes/Content/Images/qa-and-software-testing/qa_testing_banner.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/qa-and-software-testing/qa_testing_banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -1775,7 +1775,7 @@
 }
 
 .qa-testing-how-we-do {
-    background-image: url(/Themes/Content/Images/qa-and-software-testing/qa_testing_how_we_do.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/qa-and-software-testing/qa_testing_how_we_do.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1783,7 +1783,7 @@
     color: #ffffff
 }
 .testing-expertise {
-    background-image: url(/Themes/Content/Images/why-outsourcing/BG.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/why-outsourcing/BG.jpg);
     background-repeat: repeat-x;
 }
 .testing-expertise h3 {
@@ -2180,7 +2180,7 @@
 }
 
 .application-support-maintenance__main-content-wrapper {
-    background-image: url(/Themes/Content/Images/app-support-maintenance/app-support-maintenance-background.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@main/Content/Images/app-support-maintenance/app-support-maintenance-background.png);
     background-position: left top;
     background-size: 100% auto;
     background-repeat: no-repeat;
