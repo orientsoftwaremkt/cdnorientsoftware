@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
 
     $(".blog-panel-share-facebook").click(function popupShareFb() {
 
-        fbShare(pageUrl, pageTitle, pageDesc, '../../Themes/OrientSoftwareTheme/Content/Images/logo_osd.jpg', 600, 400);
+        fbShare(pageUrl, pageTitle, pageDesc, '../../Themes/Content/Images/logo_osd.jpg', 600, 400);
     });
 
     $(".blog-panel-share-twitter").click(function popupShareTwitter() {

@@ -1,0 +1,101 @@
+.osd-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #333;
+}
+
+.osd-footer__container {
+    font-size: 16px;
+    line-height: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #aaaaaa;
+}
+
+.osd-footer__container-link h4,
+.osd-footer__container-link h4 a {
+    font-weight:400;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.osd-footer__container-link h4 a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.osd-footer__container-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.osd-footer__container-link ul li {
+    list-style-type: none;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.osd-footer .osd-hr {
+    margin: 60px 15px;
+    border-bottom: 1px solid #464646;
+}
+
+.osd-footer__container-info .osd-contact-info__title {
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.osd-footer__container-info .osd-contact-info__location {
+    line-height: 25px;
+}
+
+.osd-footer__container-info .osd-contact-info__location strong {
+    color: #ffffff;
+}
+
+.osd-footer__container-info .osd-contact-info a {
+    text-decoration: underline;
+}
+
+.osd-footer__container-info .osd-gold-partner {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.osd-footer__container-info .iso-logo {
+    width: 100%;
+}
+
+.osd-footer__container-info .osd-gold-partner a {
+    text-decoration: underline;
+}
+
+.osd-footer a,
+.osd-footer a:hover {
+    color: #aaaaaa;
+}
+
+@media (min-width: 365px) {
+    .osd-footer__container-info .iso-logo {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .osd-footer__container .osd-gold-partner {
+        margin-top: 0;
+        text-align: right;
+    }
+
+    .osd-footer__container-link {
+        flex: 1 1 20%;
+        max-width: 20%;
+    }
+}

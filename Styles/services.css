@@ -1,0 +1,2260 @@
+/* GENERAL SERVICE PAGE STYLE */
+.service-banner {
+    width: 100%;
+    padding: 100px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+.service-banner h1,
+.service-banner p {
+    color: #fff;
+    text-align: center;
+}
+
+.service-banner .service-banner__intro {
+    width: 100%;
+    font-size: 18px;
+}
+
+.icon-next-text,
+.centered-bordered-left-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-button {
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 70px 15px 30px;
+    background-image: url("/Themes/Content/Images/icon/spirte-arrow-icon.png");
+    background-color: #ea2323;
+    background-repeat: no-repeat;
+}
+
+.contact-button:hover {
+    color: #fff;
+}
+
+@media(min-width: 768px) {
+    .service-banner {
+        padding: 140px 15px 100px;
+    }
+
+    .service-banner .service-banner__intro {
+        font-size: 20px;
+    }
+
+    .centered-bordered-left-content {
+        border-left: 2px solid #ddd;
+    }
+    .centered-bordered-left-content.--red-border {
+        border-left: 2px solid #ea2323;
+    }
+
+    .icon-next-text {
+        padding-left: 100px;
+    }
+}
+
+.service-section-intro {
+    margin-bottom: 80px;
+    text-align: center;
+}
+/* timeline style */
+.service-timeline-text {
+    margin-top: -25px;
+    padding-right: 150px;
+    border-right: 1px dotted #333;
+}
+
+.order-lg-2.service-timeline-text {
+    padding-left: 150px;
+    padding-right: 15px;
+    border-right: none;
+    border-left: 1px dotted #333;
+}
+
+/* Style the dotted line */
+
+.service-timeline-text::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: calc(100% - 80px);
+    height: 1px;
+    border-bottom: 1px dotted #333;
+    z-index: 1;
+}
+
+.order-lg-2.service-timeline-text::before {
+    right: auto;
+    left: 0;
+    width: 110px;
+    height: 1px;
+    border-bottom: 1px dotted #333;
+}
+
+.service-timeline-img {
+    position: relative;
+    padding: 30px 40px 100px 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.service-timeline div.row:last-child .service-timeline-text {
+    border: none;
+}
+
+/* Style the double red circle */
+
+.service-timeline-text::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ea2323;
+    border: 1px solid #ea2323;
+    box-shadow: inset 0 0 0 15px #fff;
+    transform: translateX(50%);
+    z-index: 2;
+}
+
+.order-lg-2.service-timeline-text::after {
+    left: 0;
+    right: auto;
+    transform: translateX(-50%);
+}
+
+/* Service timeline alter */
+.service-timeline--alter .service-timeline-text {
+    align-self: center;
+    border:none;
+    padding-top: 80px;
+}
+.service-timeline--alter .service-timeline-text h3 {
+    position: absolute;
+    z-index: 2;
+    padding-right: 30px;
+    background-color: #f4f4f4;
+    top: 0;
+}
+
+.service-timeline--alter .service-timeline-img {
+    border-left: 1px dotted #333;
+    align-self: auto;
+    margin-left: -1px;
+}
+.service-timeline--alter .order-lg-1.service-timeline-img {
+    border-right: 1px dotted #333;
+    border-left: none;
+    margin-right: -1px;
+    margin-left: 0;
+}
+.service-timeline--alter div.row:last-child .service-timeline-img {
+    border: none;
+    align-self: center;
+    padding-bottom: 0;
+}
+.service-timeline--alter>div.row:nth-last-child(2) .service-timeline-img {
+    padding-bottom: 200px;
+}
+.service-timeline--alter div.row:last-child .service-timeline-text {
+    align-self: auto;
+}
+
+/* Service custom carousel */
+/* Development and Deployment carousel */
+.service-custom-carousel .carousel-indicators {
+    position: relative;
+    margin-bottom: 40px;
+    bottom: 0;
+    z-index: 9;
+    justify-content: space-between;
+}
+.service-custom-carousel .carousel-indicators li {
+    margin: 0;
+    padding-bottom: 30px;
+    height: auto;
+    width: 25%;
+    border-bottom: 4px solid #ebebeb;
+    text-align: center;
+    text-indent: 0;
+}
+.service-custom-carousel .carousel-indicators li.active {
+    border-bottom: 4px solid #ea2323;
+}
+.service-custom-carousel .carousel-indicators li img {
+    padding-bottom: 10px;
+    display: list-item;
+    margin: 0 auto;
+}
+
+@media (max-width:1024px) {
+    .service-timeline-text {
+        padding-right: 100px;
+    }
+    .order-lg-2.service-timeline-text {
+        padding-left: 100px;
+    }
+    .order-lg-2.service-timeline-text::before {
+        width: 60px;
+    }
+}
+
+@media (max-width:991px) {
+    .service-section-intro {
+        margin-bottom: 60px;
+    }
+
+    .service-timeline-text,
+    .order-lg-2.service-timeline-text {
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+    }
+    .service-timeline--alter .service-timeline-img,
+    .service-timeline--alter .order-lg-1.service-timeline-img {
+        border: none;
+    }
+    /* Style the dotted line */
+    .service-timeline-text::before,
+    .order-lg-2.service-timeline-text::before,
+    .service-timeline-text::after,
+    .order-lg-2.service-timeline-text::after {
+        display: none;
+    }
+    .service-timeline-img,
+    .order-lg-1.service-timeline-img,
+    .service-timeline--alter>div.row:nth-last-child(2) .service-timeline-img {
+        padding-bottom: 80px;
+    }
+
+    .service-timeline--alter .service-timeline-text {
+        padding-top: 0;
+    }
+    .service-timeline--alter .service-timeline-text h3 {
+        position: relative;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .service-section-intro {
+        margin-bottom: 40px;
+    }
+    .service-timeline-img,
+    .order-lg-1.service-timeline-img,
+    .service-timeline--alter>div.row:nth-last-child(2) .service-timeline-img  {
+        padding-bottom: 60px;
+    }
+}
+/* timeline style */
+
+/* Splitting image style */
+.spliting-container {
+    margin-bottom: 60px;
+}
+
+.spliting-container__text h3 {
+    color: #ea2323;
+}
+.spliting-container__img {
+    position: relative;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.spliting-container__img-icon {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 0px 15px rgba(241, 241, 241, 0.3);
+    background-color: #fff;
+    z-index: 2;
+    transition: 0.35s;
+}
+
+.spliting-container__upper-left-cover,
+.spliting-container__bottom-left-cover,
+.spliting-container__upper-right-cover,
+.spliting-container__bottom-right-cover {
+    top: 0;
+    position: absolute;
+    height: 101%;
+    width: 30%;
+    display: none;
+}
+
+.spliting-container__upper-left-cover {
+    left: 15px;
+    background-image: linear-gradient(107deg, #fff 40%, transparent 40.5%);
+}
+.spliting-container__bottom-left-cover {
+    left: 15px;
+    background-image: linear-gradient(73deg, #fff 40%, transparent 40.5%);
+}
+
+.spliting-container__upper-right-cover {
+    right: 14px;
+    background-image: linear-gradient(-107deg, #fff 40%, transparent 40.5%);
+}
+.spliting-container__bottom-right-cover {
+    right: 14px;
+    background-image: linear-gradient(-73deg, #fff 40%, transparent 40.5%);
+}
+
+@media (min-width: 768px) {
+    .spliting-container {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .spliting-container__img {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .spliting-container__bottom-left-cover,
+    .spliting-container__upper-right-cover,
+    .spliting-container__upper-left-cover,
+    .spliting-container__bottom-right-cover {
+        display: block;
+    }
+
+    .spliting-container__img-icon {
+        top: 50%;
+        left: 4%;
+        transform: translateY(-50%);
+    }
+
+    .spliting-container__img-icon--right {
+        left: auto;
+        right: 4%;
+    }
+}
+
+
+
+
+
+/* End Splitting image style */
+
+.service-box-shadow-right {
+    border-radius: 135px 0 135px 0;
+    box-shadow: 0px 0px 20px 0px #bbbbbb;
+}
+.service-box-shadow-left {
+    border-radius: 0 135px 0 135px;
+    box-shadow: 0px 0px 20px 0px #bbbbbb;
+}
+
+.red-box {
+    border-radius: 0 50px;
+    background-color: rgba(234, 34, 34, 0.8);
+    padding: 40px;
+}
+
+.service-conclusion-container {
+    padding-top: 270px;
+    margin-top: -230px;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .service-conclusion-container {
+        padding-top: 180px;
+        margin-top: -160px;
+    }
+
+    .service-conclusion-container-img {
+        margin-top: -135px;
+    }
+
+    .service-conclusion-container-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/* END GENERAL SERVICE PAGE STYLE */
+
+
+/* BUILD OPERATE TRANSFER */
+/* BOT banner */
+
+.bot-banner {
+    background-image: url("/Themes/Content/Images/bot/Orient_BOT_Banner-BG.jpg");
+}
+@media (max-width: 991px) {
+    .bot-banner {
+        background-image: url("/Themes/Content/Images/bot/BOT-tablet-banner.jpg");
+        background-position-y: center;
+    }
+}
+@media (max-width: 767px) {
+    .bot-banner {
+        background-image: url("/Themes/Content/Images/bot/BOT-mobile-banner.jpg");
+    }
+}
+
+/* why BOT model */
+.bot-reasons img {
+    max-height: 100px;
+}
+
+/* our BOT model */
+.bot-model-benefits span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* END BUILD OPERATE TRANSFER */
+
+/* BEGIN DEDICATED TEAM */
+
+.dedicated-team-banner {
+    background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-Team-banner.jpg');
+}
+
+.our-hr-process .service-timeline-text h2 {
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+/* Building dedicated team */
+
+.dedicated-team-advantages {
+    background-image: url("/Themes/Content/Images/dedicated-team/Dedicated-Team-Section03.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.dedicated-team-advantages h2,
+.dedicated-team-advantages h3,
+.dedicated-team-advantages p {
+    color: #fff;
+}
+
+/* Dedicated team options */
+.dedicated-team-options h2 {
+    color: #333;
+}
+.dedicated-team-options h3 {
+    color: #ea2323;
+}
+.dedicated-team-options img {
+    max-height: 270px;
+}
+.dedicated-team-options--left {
+    padding-right: 4.166666%;
+}
+.dedicated-team-options--right {
+    padding-left: 4.166666%;
+}
+
+/* Dedicated team info box */
+.dedicated-team-infobox {
+    background-image: url("/Themes/Content/Images/dedicated-team/InfoBox-BG.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.dedicated-team-infobox h2,
+.dedicated-team-infobox p {
+    color: #fff;
+}
+.dedicated-team-infobox h2 {
+    margin-bottom: 40px;
+}
+
+@media (max-width:991px) {
+    .dedicated-team-banner {
+        background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-team-tablet-banner.jpg');
+    }
+    .dedicated-team h2 {
+        margin-bottom: 80px;
+    }
+    .our-hr-process .service-timeline-text h2 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .dedicated-team-options div.row div:last-child {
+        margin-top: 50px;
+    }
+    .dedicated-team-infobox h2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .dedicated-team-banner {
+        background-image: url('/Themes/Content/Images/dedicated-team/Dedicated-team-mobile-banner.jpg');
+    }
+    .dedicated-team h2 {
+        margin-bottom: 60px;
+    }
+    .our-hr-process .service-timeline-text h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .dedicated-team-infobox h2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:479px) {
+    .dedicated-team h2 {
+        margin-bottom: 40px;
+    }
+    .our-hr-process .service-timeline-text h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .dedicated-team-options div.row div:last-child {
+        margin-top: 30px;
+    }
+    .dedicated-team-infobox h2 {
+        margin-bottom: 30px;
+    }
+}
+
+/* END DEDICATED TEAM */
+
+/* BEGIN CLOUD COMPUTING */
+
+.cloud-computing-banner {
+    background-image: url('/Themes/Content/Images/cloud-and-devops/Could-and-DevOp-Banner-BG.jpg');
+}
+
+.devops-methodology img {
+    margin-top: 70px;
+}
+
+.cloud-devops-relationship {
+    background-image: url("/Themes/Content/Images/cloud-and-devops/Could-and-DevOp-Section03-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.cloud-computing-benefits img {
+    margin-bottom: 30px;
+}
+
+.orient-staff-capabilities ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.orient-staff-capabilities ul li::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: -26px;
+    top: 12px;
+    background-color: #d1dde6;
+    border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+    .cloud-computing-banner {
+        background-image: url('/Themes/Content/Images/cloud-and-devops/Cloud-and-devOps-tablet-banner.jpg');
+        background-position-y: center;
+    }
+}
+@media (max-width: 767px) {
+    .cloud-computing-banner {
+        background-image: url('/Themes/Content/Images/cloud-and-devops/Cloud-and-devOps-mobile-banner.jpg');
+    }
+}
+
+/* Cloud vendors Slider */
+
+.cloud-vendors {
+    background-color: #f5f5f5;
+}
+
+.cloud-vendors .carousel-indicators {
+    margin: 50px auto;
+    padding: 0 15px;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 9;
+    list-style: none;
+}
+
+.cloud-vendors .carousel-indicators li {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.cloud-vendors .carousel-indicators li:nth-child(2) {
+    margin: 0 8.333333%;
+}
+
+.cloud-vendors .carousel-indicators .active {
+    opacity: 1;
+    background-color: transparent;
+}
+
+.cloud-vendors .carousel-indicators li img {
+    display: list-item;
+}
+
+/* End Cloud vendors Slider */
+
+@media (max-width: 991px) {
+
+    .cloud-vendors .carousel-indicators {
+        margin: 60px auto;
+    }
+    .cloud-computing ul li {
+        padding-left: 26px;
+    }
+    .cloud-computing ul li::before {
+        left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cloud-computing-benefits img {
+        margin-bottom: 10px;
+    }
+    .cloud-vendors .carousel-indicators {
+        margin: 40px auto;
+    }
+}
+
+
+/* END CLOUD COMPUTING */
+
+/* PRODUCT DEVELOPMENT */
+
+.software-product-development-banner {
+    background-image: url(/Themes/Content/Images/software-product-development/Product-Development-desktop-banner.jpg);
+}
+
+.product-dev-background-img-left {
+    background-image: url(/Themes/Content/Images/software-product-development/background-img-left.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: auto 60%;
+}
+
+.product-dev-background-img-right {
+    background-image: url(/Themes/Content/Images/software-product-development/background-img-right.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 60%;
+}
+
+.software-product-development h2 {
+    text-align: unset;
+}
+
+.product-team-background {
+    background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-desktop-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+}
+
+.product-team-development-text {
+    color: #fff;
+    text-align: unset;
+}
+
+.product-enhancements-background {
+    background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-desktop-banner.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+}
+
+@media (max-width: 991px) {
+    .software-product-development-banner {
+        background-image: url(/Themes/Content/Images/software-product-development/Product-Development-tablet-banner.jpg);
+        background-position-y: top;
+    }
+    .product-team-background {
+        background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-tablet-banner.jpg);
+    }
+    .product-enhancements-background {
+        background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-tablet-banner.jpg);
+    }
+
+    .product-team-development-border.red-box {
+        margin: auto;
+        border: none;
+        background-color: transparent;
+    }
+    .product-dev-background-img-left,
+    .product-dev-background-img-right {
+        background-image: none;
+    }
+}
+@media (max-width: 767px) {
+    .software-product-development-banner {
+        background-image: url(/Themes/Content/Images/software-product-development/Product-Development-mobile-banner.jpg);
+    }
+    .product-team-background {
+        background-image: url(/Themes/Content/Images/software-product-development/Scaling-Up-Product-Team-mobile-banner.jpg);
+    }
+    .product-enhancements-background {
+        background-image: url(/Themes/Content/Images/software-product-development/Product-Enhancements-Maintenance-mobile-banner.jpg);
+    }
+}
+
+/* END PRODUCT DEVELOPMENT */
+
+/* INTERNET-OF-THINGS */
+
+.internet-of-things h3 {
+    color: #ea2323;
+}
+
+.iot-banner {
+    background-image: url(/Themes/Content/Images/iot/IOT-Banner_BG.jpg);
+}
+
+.iot-background {
+    background-image: url(/Themes/Content/Images/iot/IOT-Banner-BG-Section02.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+}
+
+.iot-text {
+    color: #fff;
+    text-align: unset;
+}
+
+.iot-message {
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+    background: #f5f5f5;
+}
+
+.iot-message:before {
+    width: 0;
+    height: 0;
+    content: "";
+    top: 6px;
+    left: -35px;
+    position: relative;
+    border-style: solid;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.internet-of-things .osd-testimonials__profile-pic:nth-child(1) {
+    top: 90px;
+    left: 350px;
+}
+
+.internet-of-things .osd-testimonials__profile-pic:nth-child(2) {
+    top: 370px;
+    left: 175px;
+}
+
+.internet-of-things .osd-testimonials__profile-pic:nth-child(3) {
+    top: 480px;
+    left: 485px;
+}
+
+@media screen and (max-width: 991px) {
+    .iot-banner {
+        background-image: url(/Themes/Content/Images/iot/IOT-tablet-banner.jpg);
+    }
+    .iot-message:before {
+        display: none;
+    }
+    .internet-of-things .osd-testimonials__img {
+        height: auto;
+    }
+    .internet-of-things .osd-testimonials__profile-pic:nth-child(1),
+    .internet-of-things .osd-testimonials__profile-pic:nth-child(2),
+    .internet-of-things .osd-testimonials__profile-pic:nth-child(3) {
+        left: auto;
+        top: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iot-banner {
+        background-image: url(/Themes/Content/Images/iot/IOT-mobile-banner.jpg);
+    }
+    .internet-of-things .osd-testimonials__profile-pic.active {
+        width: 106px;
+        height: 106px;
+    }
+    .internet-of-things h2 {
+        padding: 0;
+    }
+}
+
+
+
+/* CUSTOM SOFTWARE DEVELOPMENT */
+
+.circle-carousel .carousel-indicators {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.circle-carousel .carousel-indicators li {
+    text-indent: 0;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    background: none;
+}
+
+.circle-carousel__content {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px 15px;
+}
+
+@media (min-width: 768px) {
+    .circle-carousel {
+        min-height: 800px;
+        margin: auto;
+    }
+
+    .circle-carousel .carousel-inner {
+        position: absolute;
+        max-width: 600px;
+        min-height: 800px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .circle-carousel__indicator {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 112px;
+        position: absolute;
+        max-width: 280px;
+        height: 140px;
+        width: 100%;
+        padding: 20px 10px;
+        filter: grayscale(.8);
+    }
+
+    li.active .circle-carousel__indicator {
+        filter: grayscale(0);
+    }
+
+    .circle-carousel .carousel-indicators li:nth-child(1) {
+        top: 0;
+        left: 0;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(1) .circle-carousel__indicator {
+        top: 0;
+        left: 20%;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(1)::before {
+        top: 56px;
+        left: 50%;
+        width: 90%;
+        height: 1px;
+        border-top: 2px dashed #ea2323;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(1)::after {
+        top: 56px;
+        left: 0;
+        width: 20%;
+        height: calc(100% - 56px);
+        border-top: 2px dashed #ea2323;
+        border-left: 2px dashed #ea2323;
+        border-top-left-radius: 120px;
+    }
+
+    .circle-carousel .carousel-indicators li:nth-child(2) {
+        top: 0;
+        right: 0;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(2) .circle-carousel__indicator {
+        top: 0;
+        right: 20%;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(2)::after {
+        top: 56px;
+        left: 80%;
+        width: 20%;
+        height: calc(100% - 56px);
+        border-top: 2px dashed #ea2323;
+        border-right: 2px dashed #ea2323;
+        border-top-right-radius: 120px;
+    }
+
+
+    .circle-carousel .carousel-indicators li:nth-child(3) {
+        bottom: 0;
+        left: 0;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(3) .circle-carousel__indicator {
+        bottom: 0;
+        left: 20%;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(3)::before {
+        top: calc(100% - 56px);
+        left: 50%;
+        width: 90%;
+        height: 1px;
+        border-top: 2px dashed #ea2323;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(3)::after {
+        bottom: 56px;
+        left: 0;
+        width: 20%;
+        height: calc(100% - 56px);
+        border-bottom: 2px dashed #ea2323;
+        border-left: 2px dashed #ea2323;
+        border-bottom-left-radius: 120px;
+    }
+
+    .circle-carousel .carousel-indicators li:nth-child(4) {
+        bottom: 0;
+        right: 0;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(4) .circle-carousel__indicator {
+        bottom: 0;
+        right: 20%;
+    }
+    .circle-carousel .carousel-indicators li:nth-child(4)::after {
+        bottom: 56px;
+        left: 80%;
+        width: 20%;
+        height: calc(100% - 56px);
+        border-bottom: 2px dashed #ea2323;
+        border-right: 2px dashed #ea2323;
+        border-bottom-right-radius: 120px;
+    }
+
+    .circle-carousel__content {
+        border-radius: 112px;
+        padding: 30px 70px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%)!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .circle-carousel {
+        min-height: 600px;
+    }
+
+    .circle-carousel .carousel-inner {
+        max-width: 900px;
+        min-height: 600px;
+    }
+
+    .circle-carousel__indicator {
+        max-width: 340px;
+    }
+
+    .circle-carousel__content {
+        padding: 30px 90px;
+    }
+
+}
+
+/* END CUSTOM SOFTWARE DEVELOPMENT */
+
+/* WHY OUTSOURCING */
+
+.why-outsourcing h3 {
+    color: #ea2323;
+}
+.why-outsourcing-banner {
+    background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-desktop-banner.jpg);
+}
+
+.why-outsourcing-number {
+    font-weight: 400;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #ea2222;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 10px #fff4f4;
+    position: absolute;
+    left: -55px;
+    top: -10px;
+}
+.why-outsourcing-number__position--top{
+    position: unset;
+    display: inline-block;
+}
+.why-outsourcing-border {
+    border-radius: 20px;
+    background-color: #fff6f6;
+}
+.why-outsourcing-background {
+    background-image: url(/Themes/Content/Images/why-outsourcing/Section02-Banner-BG.png);
+    background-size: cover;
+    background-position: center right;
+    min-height: 700px;
+}
+.get-started-outsourcing {
+    background-image: url(/Themes/Content/Images/why-outsourcing/BG-02.png);
+    background-repeat: repeat-x;
+}
+.get-started-outsourcing h2 {
+    text-align: unset;
+}
+.get-started-outsourcing h3 {
+    color: #333
+}
+.what-software-dev-outsourcing-border {
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 50px 30px;
+}
+.what-software-dev-outsourcing-border h4 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #ea2222
+}
+.common-outsourcing-background {
+    background-image: url(/Themes/Content/Images/why-outsourcing/BG.jpg);
+    background-repeat: repeat-x;
+}
+.common-outsourcing-background h3 {
+    color: #333
+}
+.why-outsourcing-cta-background {
+    padding: 60px 15px;
+    text-align: center;
+    background-image: url(/Themes/Content/Images/why-outsourcing/bg-CTA-button.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 5px;
+}
+.why-outsourcing-cta-background .osd-btn--secondary,
+.why-outsourcing-software-dev-border .osd-btn--secondary {
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #fff!important;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.why-outsourcing-cta-background span {
+    font-size: 40px;
+    margin-right: 4%;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+@media (max-width: 1200px) {
+    .why-outsourcing-number {
+        left: auto;
+        top: auto;
+        position: relative;
+        margin: 0 auto 30px;
+    }
+}
+@media (max-width: 1030px) {
+    .why-outsourcing-cta-background span {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .why-outsourcing-banner {
+        background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-tablet-banner.jpg);
+    }
+    .why-outsourcing-background {
+        padding: 0;
+        min-height: auto;
+    }
+    .why-outsourcing-software-dev-border.red-box,
+    .why-outsourcing-cta-background {
+        border-radius: 0;
+    }
+    .why-outsourcing h3 {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .why-outsourcing-banner {
+        background-image: url(/Themes/Content/Images/why-outsourcing/10-reasons-why-outsourcing-mobile-banner.jpg);
+    }
+    .why-outsourcing-software-dev-border.red-box {
+        padding: 60px 20px;
+    }
+}
+
+/* END WHY OUTSOURCING SOFTWARE */
+
+
+
+
+/* WHY OUTSOURCING TO VIETNAM */
+.why-outsource-to-vn {
+    text-align: justify;
+}
+
+.why-outsource-to-vn-banner h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 130px 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.why-outsource-to-vn h2 {
+    line-height: 1.15;
+    margin-bottom: 40px;
+}
+
+.why-outsource-to-vn h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.why-outsource-to-vn-banner {
+    background-image: url("/Themes/Content/Images/why-outsource-to-vietnam/why-outsource-to-vn-banner02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    max-height: 1024px;
+    min-height: 700px;
+}
+
+.wise-choice h2 {
+    color: #000;
+    padding-left: 40px;
+    position: relative;
+}
+.wise-choice h2::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 12px;
+    height: 64px;
+    background-color: #ea2323;
+}
+
+.outsource-benefit {
+    background: url("/Themes/Content/Images/why-outsource-to-vietnam/benefit-of-outsourcing.png") no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+/* magic scroll */
+.outsource-benefit-list {
+    padding: 80px 0;
+}
+.case-fixed__row {
+    height: auto;
+}
+.case-fixed__item {
+    padding-bottom: 50px;
+}
+.img-container {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+.case-fixed__text {
+    padding: 30px 15px 0;
+}
+.scrollmagic-pin-spacer {
+    width: 45%!important;
+}
+@media (max-width:991px) {
+    .scrollmagic-pin-spacer {
+        width: 100%!important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .img-container {
+        position: relative!important;
+    }
+}
+@media(min-width: 992px) {
+    .why-outsource-to-vn h3 {
+        /* margin-bottom: 20px; */
+        font-size: 34px;
+    }
+    .outsource-benefit-list {
+        padding: 0;
+    }
+    .case-fixed__item {
+        max-height: 100vh;
+    }
+    .case-fixed__row {
+        height: 100vh;
+    }
+    .img-container {
+        height: 100vh;
+        width: 45%;
+    }
+
+    .img-container img {
+        position: absolute;
+        object-fit: cover;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .img-container img.lazy-load.loaded {
+        z-index: 9;
+        opacity: 0;
+    }
+
+    .img-container img[data-item='pinned-trigger'],
+    .img-container img.pinned,
+    img[data-item='pinned-trigger'].lazy-load.loaded,
+    img.pinned.lazy-load.loaded {
+        opacity: 1;
+    }
+    .case-fixed__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 4.166666665%;
+        width: 50%;
+        height: 100vh;
+        float: right;
+    }
+}
+@media(min-width: 1366px) {
+    .case-fixed__text {
+        padding: 0 8.3333333%;
+    }
+}
+@media(min-width: 1700px) {
+    .case-fixed__text {
+        padding-right: 16.6666667%;
+    }
+}
+/* end magic scroll */
+
+.who-outsource {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.trusted-partner ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 15px;
+}
+.trusted-partner ul li:last-of-type {
+    margin-bottom: 0;
+}
+.pay-to-outsource {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding-top: 7.903225806vw;
+    padding-bottom: 10.05376344vw;
+    background-attachment: fixed;
+}
+
+@media (min-width:576px) {
+    .who-outsource {
+        padding-bottom: 110px;
+        padding-top: 110px;
+    }
+}
+@media (min-width:768px) {
+
+    .why-outsource-to-vn-banner h1 {
+        font-size: 60px;
+    }
+
+    .who-outsource {
+        padding-bottom: 140px;
+        padding-top: 140px;
+    }
+
+    .wise-choice h2::before {
+        top: 10px;
+        height: 91px;
+    }
+}
+@media (min-width:992px) {
+    .why-outsource-to-vn h2 {
+        font-size: 50px;
+    }
+    .why-outsource-to-vn-banner h1 {
+        padding: 170px 40px;
+        font-size: 5.161290323vw;
+    }
+
+    .wise-choice h2::before {
+        top: 9px;
+        height: 94px;
+    }
+    .trusted-partner ul li {
+        margin-bottom: 40px;
+    }
+    .trusted-partner ul li::before {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: #ea2323;
+        border-radius: 50%;
+        top: 15px;
+        left: -33px;
+    }
+    .why-outsource-to-vn-intro {
+        position: relative;
+    }
+    .why-outsource-to-vn-intro::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url("/Themes/Content/Images/why-outsource-to-vietnam/save-cost-background-left.png") no-repeat;
+        background-position: left bottom;
+        bottom: -120px;
+        left: 0;
+        z-index: -1;
+    }
+    .why-outsource-to-vn-intro::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url("/Themes/Content/Images/why-outsource-to-vietnam/save-cost-background-right.png") no-repeat;
+        background-position: right bottom;
+        bottom: -60px;
+        right: 0;
+        z-index: -1;
+    }
+}
+@media (min-width:1366px) {
+    .wise-choice>div>div:first-of-type{
+        padding-right: 8.3333333%;
+    }
+    .wise-choice h2::before {
+        top: 11px;
+        height: 112px;
+    }
+}
+@media (min-width:1600px) {
+    .why-outsource-to-vn-banner h1 {
+        font-size: 96px;
+        padding: 180px 40px;
+    }
+    .why-outsource-to-vn h2 {
+        font-size: 60px;
+    }
+    .who-outsource {
+        padding-bottom: 170px;
+        padding-top: 170px;
+    }
+    .pay-to-outsource {
+        padding-top: 140px;
+        padding-bottom: 180px;
+    }
+}
+
+/* END WHY OUTSOURCING TO VIETNAM */
+
+
+
+
+
+/* --- WHY OUTSOURCING FAQ --- */
+
+.why-outsourcing-faq {
+    margin-bottom: 50px;
+}
+
+.why-outsourcing-faq h1 {
+    font-size: 40px;
+}
+.why-outsourcing-faq-banner {
+    background-image: url(/Themes/Content/Images/why-outsourcing-faq/faq-banner.png);
+}
+
+.osd-tab__nav {
+    top: 0px;
+    position: sticky;
+    background: #fff;
+    z-index: 1;
+    transition: ease .5s;
+}
+
+.osd-tab__nav--sticky-on-scroll {
+    top: 50px;
+}
+
+.osd-tab__nav .dropdown-toggle {
+    font-size: 18px;
+    background-color: #fff;
+    box-shadow: none;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    min-width: 160px;
+    text-align: left;
+    position: relative;
+    padding: 0 30px 0 15px;
+    line-height: 38px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.osd-tab__nav .dropdown-toggle::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.osd-tab__nav .dropdown-menu {
+    font-size: 18px;
+}
+
+.osd-tab__category {
+    font-size: 20px;
+    color: #7e7e7e;
+    position: relative;
+    font-weight: 400;
+    line-height: 1.88;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.osd-tab__category::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ea2323;
+    transition: ease .3s;
+    bottom: -5px;
+    left: 0;
+}
+
+.osd-tab__category.active,
+.osd-tab__category:hover {
+    color: #000;
+}
+
+.osd-tab__category.active::after,
+.osd-tab__category:hover::after {
+    width: 100%;
+}
+
+.osd-tab__category.dropdown-item:hover::after {
+    display: none;
+}
+
+
+
+@media(min-width: 768px) {
+    .why-outsourcing-faq h1 {
+        font-size: 46px;
+    }
+
+    .osd-tab__category {
+        margin: 0 20px;
+    }
+}
+
+@media(min-width: 992px) {
+    .osd-tab__nav--sticky-on-scroll {
+        top: 60px;
+    }
+
+    .osd-tab__nav .dropdown-toggle {
+        width: 220px;
+        margin-top: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* --- WHY OUTSOURCING FAQ --- */
+
+
+
+
+
+/* WEB APPLICATION DEVELOPMENT */
+
+.web-app-development h3 {
+    color: #ea2323;
+}
+.web-app-development-banner {
+    background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware.jpg);
+}
+
+.web-app-development-text__left {
+    text-align: left;
+}
+.web-app-development-background {
+    background-color: #ebebeb;
+    height: 100%;
+    border-radius: 5px;
+}
+.web-app-development-background h3 {
+    color: #333333;
+    padding: 30px 30px 10px 30px;
+}
+.web-app-development-background p {
+    padding: 0 30px 30px 30px;
+}
+.why-orient__content {
+    padding: 0 5.4%;
+}
+.why-orient__content h3 {
+    color: #ea2323;
+}
+
+.why-orient .row {
+    margin-bottom: 100px;
+}
+
+.why-orient-img-container {
+    position: relative;
+}
+
+.why-orient__left-cover,
+.why-orient__right-cover,
+.why-orient__upper-left-cover {
+    top: 0;
+    left: 15px;
+    position: absolute;
+    height: 101%;
+    width: 30%;
+}
+
+.why-orient__left-cover {
+    background-image: linear-gradient(73deg, #fff 40%, transparent 40.5%);
+}
+
+.why-orient__right-cover {
+    right: 14px;
+    left: auto;
+    background-image: linear-gradient(-107deg, #fff 40%, transparent 40.5%);
+}
+
+.why-orient__upper-left-cover {
+    background-image: linear-gradient(107deg, #fff 40%, transparent 40.5%);
+}
+
+.why-orient-icon {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 0px 15px rgba(241, 241, 241, 0.3);
+    background-color: #fff;
+    z-index: 2;
+}
+
+.order-lg-1 .why-orient-icon {
+    right: 4%;
+    left: auto;
+}
+.os-you-get__background-img {
+    background-image: url(/Themes/Content/Images/web-app-development/Tech-BG.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.os-you-get__background-img h2,
+.os-you-get__background-img li {
+    color: #ffffff;
+}
+.os-you-get__background-img ul {
+    list-style-image: url(/Themes/Content/Images/web-app-development/checked.png);
+}
+.os-you-get__background-img ul li {
+    padding-bottom: 60px;
+}
+
+.os-you-get__background-img ul li:last-child {
+    padding-bottom: 0;
+}
+
+.our-solution>div.row {
+    padding-top: 30px;
+}
+.get-started__circle {
+    border: 1px solid #acacac;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.how-to-get-started h3 {
+    color: #333;
+}
+.how-to-get-started-img {
+    position: relative;
+}
+.how-to-get-started-img--bottom-line{
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    border-left: 1px dotted #333;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.during-the-web_background {
+    background-color: #f4f4f4
+}
+
+.during-the-web .service-timeline-text::after {
+    box-shadow: inset 0 0 0 15px #f4f4f4;
+}
+
+@media (max-width:991px) {
+    .web-app-development-banner {
+        background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-tablet-banner.jpg);
+    }
+    .os-you-get__background-img {
+        background-image: url(/Themes/Content/Images/web-app-development/Tech-Tablet-BG.jpg);
+    }
+
+    .how-to-get-started-img--bottom-line{
+        border: none;
+    }
+    .get-started__circle {
+        margin-bottom: 25px;
+    }
+    .why-orient__left-cover,
+    .why-orient__right-cover,
+    .why-orient__upper-left-cover {
+        display: none;
+    }
+    .why-orient-img-container {
+        margin-top: 90px;
+    }
+    .why-orient-img-container .why-orient-icon {
+        top: 0;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%,-50%);
+    }
+    .why-orient__content {
+        padding: 0 15px;
+    }
+
+    .why-orient .row {
+        margin-bottom: 80px;
+    }
+}
+@media (max-width:767px) {
+    .web-app-development-banner {
+        background-image: url(/Themes/Content/Images/web-app-development/Web-Application-Development-Orientsoftware-mobile-banner.jpg);
+    }
+    .os-you-get__background-img {
+        background-image: url(/Themes/Content/Images/web-app-development/Tech-Mobile-BG.jpg);
+    }
+    .during-the-web h2 {
+        margin-bottom: 60px;
+    }
+    .why-orient .row {
+        margin-bottom: 60px;
+    }
+    .os-you-get__background-img ul li {
+        padding-bottom: 30px;
+    }
+}
+/* END WEB APPLICATION DEVELOPMENT */
+
+
+
+
+
+/* MOBILE APPLICATION DEVELOPMENT */
+.mobile-app-development-banner {
+    background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware.jpg");
+}
+.mobile-app-development__how-we-do-it .service-timeline-text::after {
+    box-shadow: inset 0 0 0 15px #f5f5f5;
+}
+
+@media (min-width:992px) {
+    .mobile-app-development__how-we-do-it .service-timeline--alter div.row:last-child .service-timeline-img
+    {
+        margin-top: -100px;
+    }
+}
+@media (max-width:991px) {
+    .mobile-app-development-banner {
+        background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-tablet-banner.jpg");
+        background-position-y: center;
+    }
+}
+@media (max-width:767px) {
+    .mobile-app-development-banner {
+        background-image: url("/Themes/Content/Images/mobile-app-development/Mobile-Application-Development-Orientsoftware-mobile-banner.jpg");
+    }
+    .mobile-app-development__areas-of-expertise .service-section-intro {
+        margin-bottom: 40px;
+    }
+}
+/* END MOBILE APPLICATION DEVELOPMENT */
+
+/* QA-AND-TESTING */
+
+.qa-and-software-testing-banner {
+    background-image: url(/Themes/Content/Images/qa-and-software-testing/qa_testing_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    position: relative;
+}
+
+.qa-and-software-testing-text__left {
+    text-align: left;
+}
+
+.qa-testing-how-we-do {
+    background-image: url(/Themes/Content/Images/qa-and-software-testing/qa_testing_how_we_do.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.qa-testing-how-we-do h2 {
+    color: #ffffff
+}
+.testing-expertise {
+    background-image: url(/Themes/Content/Images/why-outsourcing/BG.jpg);
+    background-repeat: repeat-x;
+}
+.testing-expertise h3 {
+    color: #333
+}
+.our-testing-services .carousel-indicators .active::after {
+    width: 0;
+    height: 0;
+    content: "";
+    left: calc(50% - 10px);
+    position: absolute;
+    bottom: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ea2323
+}
+
+.testing-services-background {
+    background-size: cover;
+    background-position: center center;
+    min-height: 700px;
+}
+.testing-services-border {
+    border-radius: 0 50px;
+    background-color: rgba(234, 34, 34, 0.8);
+    padding: 40px;
+}
+.testing-services-text {
+    color: #fff;
+    text-align: unset;
+}
+
+#our-qa-process h3 {
+    color: #ea2323;
+}
+
+#our-qa-process .carousel-indicators {
+    margin: 0 auto;
+    bottom: 0;
+    z-index: 9;
+}
+#our-qa-process .service-process-content{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+#our-qa-process .carousel-indicators li {
+    width: 16.6666667%;
+    height: 12px;
+    margin: 0;
+    background-color: transparent;
+}
+#our-qa-process .carousel-indicators li p {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: calc(50% - 6px);
+    border-radius: 50%;
+    background-color: #ddd;
+    z-index: 2;
+}
+#our-qa-process .carousel-indicators li.active p {
+    background-color: #ea2323;
+}
+#our-qa-process .carousel-indicators li p span {
+    display: none;
+}
+#our-qa-process .carousel-indicators li::after {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    top: calc(50% - 1px);
+    z-index: 1;
+}
+#our-qa-process .carousel-indicators li:first-child::after {
+    width: 50%;
+    left: 50%;
+}
+#our-qa-process .carousel-indicators li:last-child::after {
+    width: 50%;
+    right: 50%;
+}
+
+@media(min-width:768px){
+    .testing-services-border {
+        padding: 40px 60px;
+    }
+    #our-qa-process .carousel {
+        position: relative;
+        min-height: 800px;
+        padding-bottom: 40px;
+    }
+    #our-qa-process .service-process-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: calc(60% - 70px);
+        height: calc(100% - 240px);
+        transform: translate(-50%,-50%);
+        zoom: 1.01;
+    }
+    #our-qa-process .carousel-item {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #our-qa-process .carousel-indicators {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+    }
+    #our-qa-process .carousel-indicators li {
+        position: absolute;
+        text-indent: 0;
+        text-align: center;
+        background-color: transparent;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    #our-qa-process .carousel-indicators li::after {
+        width: 0!important;
+        height: 0!important;
+        background: transparent;
+        top: auto;
+        z-index: 2;
+    }
+
+    #our-qa-process .carousel-indicators li p {
+        width: 180px;
+        height: 120px;
+        left: auto;
+        color: #ddd;
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 30px;
+        transition: border 0.5s;
+    }
+    #our-qa-process .carousel-indicators li.active p {
+        background-color: #fff;
+        color: #ea2323;
+        border: 2px solid #ea2323;
+    }
+    #our-qa-process .carousel-indicators li p span{
+        display: block;
+        padding: 0 5px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+
+    /* Style bottom button */
+    #our-qa-process .carousel-indicators li:nth-child(1) {
+        bottom: 0;
+        left: 20%;
+        width: calc(60% - 184px); /* 184px is the total width of two neigbor <li> and their border */
+        height: 120px;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(1) p{
+        left: 0;
+    }
+    #our-qa-process .carousel-indicators li::before {
+        z-index: 1;
+        transition: border-color 0.5s;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(1)::before{
+        height: 1px;
+        border-bottom:2px dashed #ddd;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(1).active::before {
+        border-bottom:2px solid #ea2323;
+    }
+
+    /* Style bottom left button */
+    #our-qa-process .carousel-indicators li:nth-child(2) {
+        bottom: 0;
+        left: 0;
+        width: 20%;
+        height: calc(50% -  -60px);;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(2) p {
+        top: 0;
+        left: 0;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(2)::before {
+        height: calc(100% - 120px);
+        width: calc(100% - 90px);
+        border-bottom-left-radius: 80px;
+        border-left: 2px dashed #ddd;
+        border-bottom: 2px dashed #ddd;
+        top: 0;
+        transform: translate(90px,60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(2).active::before {
+        border-left: 2px solid #ea2323;
+        border-bottom:2px solid #ea2323;
+    }
+
+    /* Style top left button */
+    #our-qa-process .carousel-indicators li:nth-child(3) {
+        top: 0;
+        left: 0;
+        width: calc(20% -  -180px);
+        height: calc(50% - 60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(3) p {
+        top: 0;
+        right: 0;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(3)::before {
+        height: calc(100% - 60px);
+        width: calc(100% - 180px);
+        border-top-left-radius: 80px;
+        border-left: 2px dashed #ddd;
+        border-top: 2px dashed #ddd;
+        bottom: 0;
+        top: auto;
+        transform: translate(90px,0);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(3).active::before {
+        border-left: 2px solid #ea2323;
+        border-top: 2px solid #ea2323;
+    }
+
+    /* Style top button */
+    #our-qa-process .carousel-indicators li:nth-child(4) {
+        top: 0;
+        right: 20%;
+        width: calc(60% - 184px);
+        height: 120px;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(4) p {
+        right: 0;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(4)::before {
+        height: 1px;
+        border-bottom: 2px dashed #ddd;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(4).active::before {
+        border-bottom: 2px solid #ea2323;
+    }
+
+    /* Style top right button */
+    #our-qa-process .carousel-indicators li:nth-child(5) {
+        top: 0;
+        right: 0;
+        width: 20%;
+        height: calc(50% - -60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(5) p {
+        bottom: 0;
+        right: 0;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(5)::before {
+        height: calc(100% - 120px);
+        width: calc(100% - 90px);
+        border-top-right-radius: 80px;
+        border-right: 2px dashed #ddd;
+        border-top: 2px dashed #ddd;
+        top: 0;
+        transform: translate(0,60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(5).active::before {
+        border-right: 2px solid #ea2323;
+        border-top: 2px solid #ea2323;
+    }
+
+    /* Style bottom right button */
+    #our-qa-process .carousel-indicators li:nth-child(6) {
+        bottom: 0;
+        right: 0;
+        width: calc(20% -  -180px);
+        height: calc(50% - 60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(6) p {
+        bottom: 0;
+        left: 0;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(6)::before {
+        height: calc(100% - 60px);
+        width: calc(100% - 180px);
+        border-bottom-right-radius: 80px;
+        border-bottom: 2px dashed #ddd;
+        border-right: 2px dashed #ddd;
+        bottom: 0;
+        top: auto;
+        transform: translate(90px,-60px);
+    }
+    #our-qa-process .carousel-indicators li:nth-child(6).active::before {
+        border-right: 2px solid #ea2323;
+        border-bottom: 2px solid #ea2323;
+    }
+
+    /* Style the arrow on the connect line */
+    #our-qa-process .carousel-indicators li.active::after {
+        display: block;
+        border-style: solid;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(1).active::after {
+        left: 190px;
+        bottom: 60px;
+        transform: translateY(50%);
+        border-width: 12px 24px 12px 0;
+        border-color: transparent #ea2323 transparent transparent;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(2).active::after {
+        left: 91px;
+        top: 140px;
+        transform: translateX(-50%);
+        border-width: 0 12px 24px 12px;
+        border-color: transparent transparent #ea2323 transparent;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(3).active::after{
+        top: 50%;
+        left: 91px;
+        transform: translateX(-50%);
+        border-width: 0 12px 24px 12px;
+        border-color: transparent transparent #ea2323 transparent;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(4).active::after {
+        top: 60px;
+        right: 190px;
+        left: auto;
+        transform: translateY(-50%);
+        border-width: 12px 0 12px 24px;
+        border-color: transparent transparent transparent #ea2323;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(5).active::after {
+        right: 91px;
+        left: auto;
+        bottom: 140px;
+        transform: translateX(50%);
+        border-width: 24px 12px 0 12px;
+        border-color: #ea2323 transparent transparent transparent;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(6).active::after {
+        right: 91px;
+        left: auto;
+        bottom: 50%;
+        transform: translateX(50%);
+        border-width: 24px 12px 0 12px;
+        border-color: #ea2323 transparent transparent transparent;
+    }
+}
+@media(min-width: 1024px) {
+    #our-qa-process .carousel-indicators li:nth-child(3).active::after {
+        right: 190px;
+        left: auto;
+        top: 61px;
+        transform: translateY(-50%);
+        border-width: 12px 0 12px 24px;
+        border-color: transparent transparent transparent #ea2323;
+    }
+    #our-qa-process .carousel-indicators li:nth-child(6).active::after {
+        left: 190px;
+        bottom: 61px;
+        transform: translateY(50%);
+        border-width: 12px 24px 12px 0;
+        border-color: transparent #ea2323 transparent transparent;
+    }
+}
+/* END QA and TESTING */
+
+
+
+
+/* START APPLICATION SUPPORT AND MAINTENANCE */
+.application-support-maintenance {
+    background-color: #f5f5f5;
+}
+
+.service-page-title {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.service-page-title::before {
+    position: absolute;
+    content: "";
+    background-color: #ea2323;
+    width: 188px;
+    height: 3px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.application-support-maintenance__main-content-wrapper {
+    background-image: url(/Themes/Content/Images/app-support-maintenance/app-support-maintenance-background.png);
+    background-position: left top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.application-support-maintenance__service-overview {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 60px 40px 30px;
+    margin: 0 15px;
+}
+
+.application-support-maintenance__our-people {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+}
+
+.application-support-maintenance__case-studies {
+    padding-bottom: 170px;
+}
+
+.application-support-maintenance__our-people-content-wrapper {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 15px;
+    margin-bottom: 50px;
+}
+
+.application-support-maintenance__our-people-content-wrapper:first-child {
+    margin-top: 20px;
+}
+
+.application-support-maintenance__trusted-partner {
+    padding-bottom: 80px;
+    background-size: cover;
+}
+
+.application-support-maintenance__trusted-partner img {
+    margin-top: -150px;
+    margin-bottom: 30px;
+}
+
+.application-support-maintenance__trusted-partner-text {
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+
+    .application-support-maintenance__trusted-partner img {
+        margin-top: -300px;
+    }
+
+    .application-support-maintenance__trusted-partner-text {
+        padding: 0 60px;
+    }
+
+    .application-support-maintenance__case-studies {
+        padding-bottom: 320px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .application-support-maintenance__service-overview {
+        padding: 100px 120px 70px 60px;
+    }
+
+    .application-support-maintenance__our-people-content-wrapper {
+        padding: 50px 24% 45px 40px;
+    }
+}
+/* END APPLICATION SUPPORT AND MAINTENANCE */

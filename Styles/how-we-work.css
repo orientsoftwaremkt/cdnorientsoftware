@@ -1,0 +1,130 @@
+.how-we-work__main-content {
+    background-image: url(/Themes/Content/Images/how-we-work/how-we-work-background.png);
+    background-color: #efefef;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.how-we-work__our-approach-button {
+    background-color: #fff;
+    background-image: url(/Themes/Content/Images/how-we-work/how-we-work-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: auto 70px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 47px;
+    padding: 25px 20px 25px 90px;
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+    color: #333;
+}
+
+.how-we-work__development-stages {
+    background-size: cover;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.how-we-work__development-stages-img {
+    border-radius: 20px;
+    margin-bottom: -30%;
+}
+
+.how-we-work__achieve-success {
+    margin-top: 30%;
+}
+
+.how-we-work__list-box {
+    background-color: #fff;
+    padding: 40px 15px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .how-we-work__development-stages {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .how-we-work__development-stages-img {
+        margin-bottom: -350px;
+    }
+
+    .how-we-work__achieve-success {
+        margin-top: 340px;
+    }
+}
+
+@media (min-width: 992px) {
+    .how-we-work__list-box-container {
+        padding-left: 100px;
+    }
+
+    .how-we-work__list-box {
+        padding: 40px 50px 40px 15px;
+        position: relative;
+    }
+
+    .how-we-work__list-box::before {
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: calc(100% - 1 * (-45px));
+        border-left: 2px dashed #eb7676;
+        top: 0;
+        left: -60px;
+        z-index: 1;
+    }
+    .how-we-work__list-box.--first::before {
+        height: calc(50% - 1 * (-45px));
+        top: 50%;
+    }
+    .how-we-work__list-box.--last::before {
+        height: 50%;
+    }
+
+    .how-we-work__list-box::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 40px;
+        border: 10px solid #ffdddd;
+        border-radius: 50%;
+        background-color: #ea2323;
+        top: 49%;
+        left: -80px;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+
+    .how-we-work__list-box .img-fluid {
+        margin-left: -80px;
+    }
+}
+
+
+
+
+/* START TRADITIONAL METHODOLOGY */
+.traditional-methodology__forci {
+    background-size: cover;
+    max-width: 1530px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.traditional-methodology__forci-img {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .traditional-methodology__forci-img {
+        margin-top: -110px;
+    }
+}

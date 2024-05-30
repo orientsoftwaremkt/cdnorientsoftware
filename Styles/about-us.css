@@ -1,0 +1,584 @@
+.about-us {
+    margin-top: 50px;
+    background: #f6f6f6;
+}
+
+.about-us__cover {
+    padding: 100px 0;
+    background-image: url(/Themes/Content/Images/about-us/about-us-cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about-us__cover-intro {
+    color: #fff;
+    font-size: 28px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.about-us__mission-vision {
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 0 15px;
+}
+
+.about-us__mission-vision-wrapper {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 87.97%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    padding-bottom: 200px;
+}
+
+.about-us__mission-vision-content-wrapper {
+    background-color: #fff;
+    box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.about-us__mission-img,
+.about-us__vision-img {
+    width: 100%;
+}
+
+.about-us__culture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: -300px;
+    padding: 140px 15px 80px;
+}
+
+.about-us__culture-wrapper {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.90181) 75.59%, rgba(255, 255, 255, 0.558235) 86.7%, rgba(255, 255, 255, 0) 96.77%);
+    border-radius: 20px;
+    padding: 60px 30px 30px;
+}
+
+.about-us__culture-img {
+    width: 100%;
+}
+
+.about-us__leadership {
+    background-size: cover;
+    background-position: center center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-us__leadership-bod {
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1060px;
+}
+
+.about-us__leadership-bod.--left {
+    margin-top: 100px;
+}
+
+.about-us__leadership-bod.--left,
+.about-us__leadership-bod.--right {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.about-us__leadership-bod-img {
+    width: 300px;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.about-us__leadership-name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.about-us__leadership-position {
+    font-size: 16px;
+}
+
+.about-us__divider {
+    width: 100px;
+    height: 3px;
+    background: #ea2323;
+    margin: 10px 0 25px;
+}
+
+.about-us__leadership-senior {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 0 50px;
+}
+
+.about-us__leadership-senior-img {
+    max-height: 435px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 26px;
+}
+
+.about-us__leadership-divider-alt {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.about-us__business-content {
+    margin-bottom: 30px;
+}
+
+.about-us__business-content-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 50px 40px;
+    max-width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .about-us__cover {
+        padding: 150px 0;
+    }
+
+    .about-us__mission-vision-content-wrapper.--vision {
+        margin-top: -100px;
+    }
+
+    .about-us__culture-wrapper {
+        padding: 80px 100px 30px;
+    }
+
+    .about-us__culture-img {
+        margin-top: -100px;
+    }
+
+    .about-us__leadership-bod {
+        margin-bottom: 80px;
+    }
+
+    .about-us__leadership-name {
+        font-size: 26px;
+    }
+
+    .about-us__leadership-senior {
+        border-radius: 90px 20px;
+        margin-bottom: 80px;
+    }
+
+    .about-us__leadership-senior-img {
+        margin: -70px auto 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-us__cover {
+        padding: 200px 0;
+    }
+
+    .about-us__cover-intro {
+        font-size: 40px;
+    }
+
+    .about-us__mission-vision-wrapper {
+        padding-bottom: 330px;
+    }
+
+    .about-us__culture {
+        padding: 80px 15px;
+    }
+
+    .about-us__culture-wrapper {
+        padding: 100px 150px 30px;
+    }
+
+    .about-us__culture-img {
+        margin-top: -200px;
+    }
+
+    .about-us__leadership-bod {
+        margin-bottom: 100px;
+    }
+
+    .about-us__leadership-bod.--left {
+        padding: 70px 70px 70px 35%;
+        border-radius: 100px 20px;
+    }
+
+    .about-us__leadership-bod.--right {
+        padding: 70px 35% 70px 70px;
+        border-radius: 20px 100px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .about-us__leadership-bod-img {
+        position: absolute;
+        bottom: 0;
+        width: 25%;
+        margin: 0;
+    }
+
+    .about-us__leadership-bod.--left .about-us__leadership-bod-img{
+        left: 8%;
+    }
+    .about-us__leadership-bod.--right .about-us__leadership-bod-img{
+        right: 9%;
+    }
+
+    .about-us__business-content {
+        margin-bottom: 60px;
+    }
+
+    .about-us__business-content-wrapper{
+        max-width: calc(100% - 20px);
+    }
+
+    .about-us__business-content.--center .about-us__business-content-wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(50px);
+    }
+
+    .about-us__business-content.--center + .about-us__business-content .about-us__business-content-wrapper {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1366px) {
+    .about-us__mission-img {
+        margin-left: -40px;
+        width: auto;
+    }
+
+    .about-us__vision-img {
+        margin-right: -40px;
+        width: auto;
+    }
+
+    .about-us__culture {
+        padding-bottom: 270px;
+    }
+
+    .about-us__culture-wrapper {
+        padding: 100px 150px 400px;
+        position: relative;
+    }
+
+    .about-us__culture-img {
+        position: absolute;
+        left: 180px;
+        bottom: -200px;
+    }
+}
+
+@media (min-width: 1600px) {
+}
+
+
+
+
+/* COMPANY CHILD PAGES */
+.company__banner {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 0 80px;
+}
+
+.company__banner-intro {
+    font-size: 20px;
+}
+
+.company__content {
+    margin-bottom: 70px;
+}
+
+.company__card {
+    background: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.company__card .card-header {
+    background: none;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+    border-left: 4px solid #ea2323;
+}
+
+.company__card .btn-link {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    color: #333;
+    font-size: 20px;
+}
+
+.company__card .btn-link::before {
+    right: 0;
+}
+
+.company__card .btn-link:hover,
+.company__card .btn-link:focus {
+    text-decoration: none;
+}
+
+.company__section-title {
+    text-align: center;
+    color: #fc4f5f;
+    text-transform: uppercase;
+    margin: 20px 0 30px;
+    padding: 0 15px;
+}
+
+@media(min-width: 768px) {
+    .company__section-title {
+        font-size: 30px;
+    }
+
+    .company__social-responsibility-quote {
+        position:relative;
+        width: 90vw;
+        margin-left: calc((620px - 90vw)/2);
+    }
+}
+
+@media(min-width: 992px) {
+    .company__banner-intro {
+        font-size: 24px;
+    }
+
+    .company__card {
+        margin-top: 50px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .company__social-responsibility-quote {
+        width: 1000px;
+        margin-left: -190px;
+    }
+}
+
+
+
+
+
+h1.about_title {
+    padding-top: 50px;
+}
+
+.quote-mark {
+    color: #adadad;
+    float: left;
+    font-size: 60px;
+    height: 0 !important;
+    margin-top: 10px !important;
+    position: relative;
+    text-indent: 0 !important;
+}
+
+.quote-mark-left {
+    left: 30px;
+}
+
+.about-info {
+    position: relative;
+    padding-top: 36px;
+}
+
+.v-line {
+    margin: 0 40px;
+    width: 1px;
+    height: 30px;
+    border-right: 1px solid #ebebeb !important;
+    transform: translateY(-50%);
+}
+
+.customer-commnents {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.profile-pic {
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-color: transparent;
+}
+
+.team-management-pic-background {
+    background-image: linear-gradient(to top, #f5f5f5, #ffffff);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+img.management-team-pic,
+img.senior-team-pic {
+    width: 85%;
+    max-width: 210px;
+}
+
+h2.management-team__header {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+div.pesonal-name {
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+}
+
+div.pesonal-title {
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333;
+}
+
+p.text-center {
+    text-align: center;
+}
+
+
+
+div.team-management-info {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    div.team-management-info.col-sm-6 {
+        -ms-flex: 0 0 49.82%;
+        flex: 0 0 49.82%;
+    }
+}
+
+@media (min-width: 992px) {
+    div.team-management-info.col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.content-w35 {
+    position: absolute;
+    left: -30PX;
+    bottom: 0;
+    width: 35%;
+}
+
+.content-w65 {
+    width: 65%;
+    float: right;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.testimonials-title {
+    padding: 0 15px;
+}
+
+.testimonial__breadcrumb {
+    padding-top: 160px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .content-w35 {
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+
+    .content-w65 {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .pad-top-30 {
+        padding-top: 30px
+    }
+
+    .content-w35 {
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+
+    .content-w65 {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+}
+
+
+
+
+/* START WHY ORIENT SOFTWARE PAGE */
+.company__why-orient {
+    background-image: url(/Themes/Content/Images/company/why-orient/why-orient-software-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+}
+
+.company__why-orient-content {
+    margin-bottom: 30px;
+}
+
+.company__why-orient-content-wrapper {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+
+@media (min-width: 768px) {
+    .company__why-orient-content-box {
+        padding: 50px;
+    }
+
+    .company__why-orient-content {
+        margin-bottom: 50px;
+    }
+
+    .company__why-orient-content.--lower {
+        transform: translateY(50px);
+    }
+}
