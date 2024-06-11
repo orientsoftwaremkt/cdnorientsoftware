@@ -41,13 +41,13 @@ main {
 
 .landing-page__header .main-grid {
     text-align: right;
-    background-image: url(/Themes/Content/Images/header/osd-logo-white.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/header/osd-logo-white.png);
     background-position: 1.5rem center;
     background-repeat: no-repeat;
     background-size: 150px;
 }
 .landing-page__header.--white-background .main-grid{
-    background-image: url("/Themes/Content/Images/header/osd-logo-black.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/header/osd-logo-black.png");
 }
 
 .landing-page__action-box {
@@ -59,7 +59,7 @@ main {
 }
 
 .landing-page__form-container {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-ld-mobile.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-ld-mobile.jpg);
     background-size: contain;
     background-position: center top;
     padding: 48% 0 50px;
@@ -143,7 +143,7 @@ main {
 }
 
 .top-technologies {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-expertise.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-expertise.jpg);
 }
 
 .top-technologies__list {
@@ -153,7 +153,7 @@ main {
 
 
 .tailored-for-you {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-tailored-mobile.png), linear-gradient(263deg, #FFF -28.84%, #E8E8E8 98.1%);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-tailored-mobile.png), linear-gradient(263deg, #FFF -28.84%, #E8E8E8 98.1%);
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@ main {
 
 
 .we-are-osd {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-we-are-osd-laptop.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-we-are-osd-laptop.jpg);
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ main {
 }
 
 .our-legacy {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-legacy.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-legacy.jpg);
 }
 
 .nav-pills {
@@ -231,27 +231,27 @@ main {
 }
 
 .custom-tab-pill.--web::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-web.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-web.png);
 }
 
 .custom-tab-pill.--mobile::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-mobile.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-mobile.png);
 }
 
 .custom-tab-pill.--backend::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-backend.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-backend.png);
 }
 
 .custom-tab-pill.active.--web::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-web-active.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-web-active.png);
 }
 
 .custom-tab-pill.active.--mobile::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-mobile-active.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-mobile-active.png);
 }
 
 .custom-tab-pill.active.--backend::before {
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-backend-active.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-backend-active.png);
 }
 
 .pill-active-marker {
@@ -298,7 +298,7 @@ main {
 .voice-of-trust__carousel .owl-nav button.owl-next {
     width: 32px;
     height: 32px;
-    background-image: url(/Themes/Content/Images/landing-page-new/icon-sprite-arrows.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/icon-sprite-arrows.png);
     background-repeat: no-repeat;
     margin-right: 4px;
 }
@@ -333,7 +333,7 @@ main {
 }
 
 .landing-page__survey {
-    background-image: url(/Themes/Content/Images/landing-page-new/background-survey-laptop.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-survey-laptop.png);
     font-size: 16px;
     min-height: 100vh;
     position: relative;
@@ -410,7 +410,7 @@ main {
 
 @media(min-width: 992px) {
     .landing-page__form-container {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-ld-laptop.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-ld-laptop.jpg);
         background-position: center bottom;
         background-size: cover;
         padding: 100px 0 220px;
@@ -436,7 +436,7 @@ main {
     }
 
     .tailored-for-you {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-tailored.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-tailored.jpg);
         background-size: cover;
         background-position: center bottom;
     }
@@ -498,13 +498,13 @@ main {
     }
 
     .landing-page__survey {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-survey.png);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-survey.png);
     }
 }
 
 @media(min-width: 1600px) {
     .landing-page__form-container {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-ld.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-ld.jpg);
     }
 
     .technologies-text {
@@ -512,26 +512,26 @@ main {
     }
 
     .we-are-osd {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-we-are-osd.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-we-are-osd.jpg);
         background-size: cover;
     }
 }
 
 @media(min-width: 2100px) {
     .landing-page__form-container {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-ld-2k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-ld-2k.jpg);
     }
 
     .tailored-for-you {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-tailored-2k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-tailored-2k.jpg);
     }
 
     .we-are-osd {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-we-are-osd-2k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-we-are-osd-2k.jpg);
     }
 
     .our-legacy {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-legacy-2k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-legacy-2k.jpg);
     }
 
     .voice-of-trust__carousel {
@@ -539,25 +539,25 @@ main {
     }
 
     .top-technologies {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-expertise-2k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-expertise-2k.jpg);
     }
 }
 
 @media(min-width: 3000px) {
     .landing-page__form-container {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-ld-4k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-ld-4k.jpg);
     }
 
     .top-technologies {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-expertise-4k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-expertise-4k.jpg);
     }
 
     .tailored-for-you {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-tailored-4k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-tailored-4k.jpg);
     }
 
     .we-are-osd {
-        background-image: url(/Themes/Content/Images/landing-page-new/background-we-are-osd-4k.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page-new/background-we-are-osd-4k.jpg);
     }
 }
 
