@@ -8,5 +8,5 @@ const contentfulConfig = {
     CDN_ACCESS_TOKEN: "Cxcb2-rhLyehqC1DGR9dGKkdipvY-NjnRpKaHgTXsN0",
     CDN_SPACE_ID: "0ddbrqb903ua",
     CDN_ENV: "master",
-    CDN_TAG_ID: "internalFiles"
+    CDN_TAG_ID: "boDFiles"
 }

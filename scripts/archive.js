@@ -16,7 +16,7 @@ $(document).ready(function (){
     var requestURL = "https://cdn.contentful.com/spaces/" + contentfulConfig.CDN_SPACE_ID
                     + "/environments/" + contentfulConfig.CDN_ENV
                     + "/entries?access_token=" + contentfulConfig.CDN_ACCESS_TOKEN
-                    + "&metadata.tags.sys.id[0]=" + contentfulConfig.CDN_TAG_ID
+                    + "&metadata.tags.sys.id[all]=" + contentfulConfig.CDN_TAG_ID
     $.ajax({
         type: "GET",
         url: requestURL,
