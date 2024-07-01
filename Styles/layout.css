@@ -484,19 +484,19 @@ a.text-link-underline:hover {
     background: none;
     margin-bottom: 0;
     display: grid;
-    grid-template-columns: 43px 1fr;
+    grid-template-columns: 20px 1fr;
     gap: 0;
 }
 
 .breadcrumb.--three-levels {
-    grid-template-columns: 43px max-content 1fr;
+    grid-template-columns: 20px max-content 1fr;
 }
 
 .breadcrumb.--four-levels {
-    grid-template-columns: 43px max-content max-content 1fr;
+    grid-template-columns: 20px max-content max-content 1fr;
 }
 .breadcrumb.--five-levels {
-    grid-template-columns: 43px max-content max-content max-content 1fr;
+    grid-template-columns: 20px max-content max-content max-content 1fr;
 }
 
 .breadcrumb a {
