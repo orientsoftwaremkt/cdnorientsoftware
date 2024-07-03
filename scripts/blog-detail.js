@@ -80,7 +80,7 @@ function setPaddingTopForSharePanel() {
 }
 
 function getSectionId() {
-    var sectionIds = $("#content-map a").map(function () {
+    var sectionIds = $(".toc-entry a").map(function () {
         return $(this).attr("href");
     }).get();
 
@@ -98,7 +98,7 @@ function setClassForToCItemOnScroll() {
         sectionIDs.forEach(function(id) {
             var anchorEl = $("a[href=\"" + id + "\"");
             if($(id).offset().top < scrollPos && scrollPos < contentPosBottom) {
-                $("#content-map li a").removeClass("active");
+                $("li.toc-entry a").removeClass("active");
                 anchorEl.addClass("active");
             }
         });
@@ -107,7 +107,7 @@ function setClassForToCItemOnScroll() {
 
 function setClassForToCItemOnClick() {
     const offset = 100;
-    $("#content-map a").click(function(e) {
+    $(".toc-entry a").click(function(e) {
         e.preventDefault();
         var id = $(this).attr("href");
         $(window).scrollTop($(id).offset().top - offset);
