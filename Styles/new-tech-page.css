@@ -1,0 +1,136 @@
+.new-tech-page h1,
+.new-tech-page h2,
+.new-tech-page h3 {
+    color: #000;
+    font-weight: 800;
+}
+
+.btn-contact-primary {
+    border: 1px solid #ea2323;
+    background-color: #ea2323;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 30px;
+}
+
+.service-banner p,
+.service-banner h1 {
+    color: #000;
+}
+
+.service-banner .service-strapline {
+    color: #0A09054D;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.gradient-background {
+    background-color: #fff;
+    background-image: radial-gradient(at center bottom, #F0CA8D 0%, #fff 30%);
+}
+.gradient-background.--center {
+    background-image: radial-gradient(circle at center 55%, #F0CA8D 0%, #fff 48%);
+}
+
+.overlapped-box {
+    padding: 30px;
+    width: calc(100% - 30px);
+    border-radius: 24px;
+    box-shadow: 0 5px 23.4px 0 #ADADAD40;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    transform: translateY(50%);
+}
+
+.contact-link {
+    color: #ea2323;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ea2323;
+    font-weight: 800;
+}
+
+.hover-box {
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 5px 23.4px 0 #ADADAD40;
+    transition: all .5s ease;
+    min-height: 360px;
+    position: relative;
+    padding: 20px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.hover-box:hover.hover-box--orange {
+    background-color: #FF7E01;
+    color: #fff;
+}
+.hover-box:hover.hover-box--red {
+    background-color: #E53616;
+    color: #fff;
+}
+.hover-box:hover.hover-box--purple {
+    background-color: #72195A;
+    color: #fff;
+}
+
+.hover-box__content-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.hover-box:hover .hover-box__content-title {
+    position: static;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.hover-box:hover .hover-box__hide,
+.hover-box__show {
+    display: none;
+}
+
+.hover-box:hover .hover-box__show {
+    display: block;
+}
+
+.numbered-background {
+    counter-increment: numbered-background;
+}
+.numbered-background__wrapper {
+    position: relative;
+    padding-top: 40px;
+}
+.numbered-background__wrapper::before {
+    position: absolute;
+    content: counter(numbered-background, decimal-leading-zero);
+    font-size: 180px;
+    font-weight: 800;
+    color: #E53616;
+    opacity: .3;
+    left: 50%;
+    top: -44px;
+    transform: translateX(-55%);
+}
+
+.tech-blog-article-wrapper {
+    background-color: #F6F6F6;
+    padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .overlapped-box .--bordered-lg-right {
+        border-right: 1px solid #000;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .overlapped-box {
+        left: calc((100% - 1200px) / 2);
+    }
+}
