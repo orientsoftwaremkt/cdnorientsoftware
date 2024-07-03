@@ -165,28 +165,37 @@
     display: none;
 }
 
+.new-tech-page .btn-link,
+.new-tech-page .card-body,
+.new-tech-page .btn-link.collapsed {
+    font-size: 14px;
+}
+
+.new-tech-page .btn-link,
+.new-tech-page .btn-link:hover,
+.new-tech-page .btn-link:hover::before {
+    font-weight: 800;
+    color: #F89500;
+}
+
+.new-tech-page .btn-link.collapsed {
+    font-weight: 800;
+    color: #000;
+}
+
 .new-tech-page .btn-link::before {
     content: "-";
     background: none;
     transform: translateY(-17px);
+    color: #F89500;
+    font-size: 20px;
 }
 
 .new-tech-page .btn-link.collapsed::before {
     content: "+";
     transform: translateY(-17px);
-}
-
-.new-tech-page .btn-link,
-.new-tech-page .btn-link.collapsed {
-    font-weight: 800;
-}
-
-.new-tech-page .btn-link.collapsed {
-    color: #333;
-}
-
-.new-tech-page .btn-link:hover::before {
-    color: #f93635;
+    color: #000;
+    font-size: 20px;
 }
 
 .new-tech-page .osd-tab__category {
@@ -196,10 +205,13 @@
     font-weight: 800;
     display: inline-block;
     width: 100%;
+    color: #000;
 }
 
+.osd-tab__category.active,
 .new-tech-page .osd-tab__category:hover {
     text-decoration: none;
+    color: #F89500;
 }
 
 .new-tech-page .osd-tab__category::before {
