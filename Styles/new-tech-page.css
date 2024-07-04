@@ -32,10 +32,12 @@
 
 .btn-contact-primary:hover {
     color: #fff;
+    background-color: #B60300;
 }
 
 .btn-contact-primary.--neon-green:hover {
     color: #000;
+    background-color: #1DF9A5;
 }
 
 .service-banner p,
@@ -57,9 +59,6 @@
 .gradient-background {
     background-color: #fff;
     background-image: radial-gradient(at center bottom, #F0CA8D 0%, #fff 30%);
-}
-.gradient-background.--center {
-    background-image: radial-gradient(circle at center 55%, #F0CA8D 0%, #fff 48%);
 }
 .gradient-background.--purple-red {
     background-image: linear-gradient(to right, #72195A, #E64940 );
@@ -184,10 +183,10 @@
 }
 
 .new-tech-page .btn-link,
-.new-tech-page .card-body,
 .new-tech-page .btn-link.collapsed {
     font-size: 14px;
 }
+
 
 .new-tech-page .btn-link,
 .new-tech-page .btn-link:hover,
@@ -311,9 +310,16 @@
 .new-tech-page .article-detail__content-map a.active {
     padding-left: 15px;
     border-left: 2px solid #f93635;
+    color: #858585;
+    font-weight: 400;
 }
 .new-tech-page .hide-scrollbar {
     max-height: 80vh;
+}
+
+.new-tech-page .card-body {
+    font-size: 14px;
+    margin-top: 0;
 }
 
 #navigate-card-collapse-1 {
@@ -365,7 +371,9 @@
         flex-wrap: wrap;
         align-items: start;
         justify-content: space-between;
-        top: 65px;
+        top: 50px;
+        background: #fff;
+        padding-top: 15px;
     }
 
     #navigate-card .card,
@@ -389,7 +397,7 @@
     }
 
     .hover-box {
-        min-height: 403px;
+        min-height: 423px;
     }
 }
 
@@ -400,8 +408,10 @@
 
     #navigate-card {
         position: fixed;
-        top: 70px;
+        top: 60px;
         right: 15px;
+        background: #fff;
+        padding-top: 15px;
         padding-right: 15px;
         width: 235px;
         z-index: 4;

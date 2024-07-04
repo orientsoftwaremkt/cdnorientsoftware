@@ -4349,6 +4349,9 @@ h2.pillar-section-title {
 .content-background.--pos-bottom {
     background-position-y: bottom;
 }
+.content-background.--contain {
+    background-size: contain;
+}
 
 .diagonal-box {
     transform: skewY(-6deg);
@@ -4735,7 +4738,6 @@ h2.pillar-section-title {
 .osd-tab__cards .card-body {
     padding: 0 0 25px;
     font-size: 20px;
-    margin-top: -10px;
 }
 
 .osd-tab__cards .card-body ul {
