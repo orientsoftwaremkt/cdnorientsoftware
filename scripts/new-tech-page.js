@@ -82,7 +82,7 @@ function setClassForToCItemOnClick() {
 }
 
 function closeCardOnClick() {
-    $("#navigate-card a").click(function(e) {
+    $("#navigate-card .tech-toc__item").click(function(e) {
         e.preventDefault();
         $("#navigate-card .btn-link").removeClass("collapsed");
         $("#navigate-card-collapse-1").removeClass("show");
