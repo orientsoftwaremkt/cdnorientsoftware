@@ -512,7 +512,7 @@
 .blog-panel-share-backtotop {
     background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/icon-backtotop-normal.svg");
     position: fixed;
-    bottom: 80px;
+    bottom: 0;
     right: 30px;
     z-index: 5;
 }

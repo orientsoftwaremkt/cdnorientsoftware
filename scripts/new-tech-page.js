@@ -7,10 +7,12 @@ $(document).ready(function() {
     closeCardOnClick();
     openFAQTabContentOnDropdownClick();
     closeNavigateMenuOnOutsideClick();
+
+    collapseOnDesktop();
 });
 
 function closeNavigateMenuOnOutsideClick() {
-    $("#main").on( "click", function() {
+    $("#blog-content").on( "click", function() {
         $("#navigate-card .btn-link").addClass("collapsed");
         $("#navigate-card-collapse-1").removeClass("show");
 
@@ -97,6 +99,13 @@ function closeCardOnClick() {
         $("#navigate-card .btn-link").addClass("collapsed");
         $("#navigate-card-collapse-1").removeClass("show");
     });
+}
+
+function collapseOnDesktop() {
+    if ($(window).width() >= 576) {
+        $("#why-go-for-react-1-1 .btn-link").addClass("collapsed");
+        $("#why-go-for-react-1-collapse-1").removeClass("show");
+    }
 }
 
 
