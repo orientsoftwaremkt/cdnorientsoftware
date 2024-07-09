@@ -5,7 +5,17 @@ $(document).ready(function() {
     setClassForToCItemOnScroll();
     setClassForToCItemOnClick();
     closeCardOnClick();
+    openFAQTabContentOnDropdownClick();
+    closeNavigateMenuOnOutsideClick();
 });
+
+function closeNavigateMenuOnOutsideClick() {
+    $("#main").on( "click", function() {
+        $("#navigate-card .btn-link").addClass("collapsed");
+        $("#navigate-card-collapse-1").removeClass("show");
+
+    });
+}
 
 function initSharePanel() {
     var blogContentPosTop = 0;
@@ -84,7 +94,28 @@ function setClassForToCItemOnClick() {
 function closeCardOnClick() {
     $("#navigate-card .tech-toc__item").click(function(e) {
         e.preventDefault();
-        $("#navigate-card .btn-link").removeClass("collapsed");
+        $("#navigate-card .btn-link").addClass("collapsed");
         $("#navigate-card-collapse-1").removeClass("show");
+    });
+}
+
+
+
+function openFAQTabContentOnDropdownClick() {
+    $("#nav-tabs-dropdown .dropdown-item").click(function () {
+        $(".tab-pane").removeClass("in active show");
+        $("a.osd-tab__category").removeClass("active show");
+        $(".dropdown-item").removeClass("d-none");
+
+        var href = $(this).attr("data-id");
+        $(href).addClass("in active show");
+        $("a[href='"+ href +"']").addClass("active show");
+        $(this).addClass("d-none");
+        $("#nav-tabs-dropdown .dropdown-toggle").text($(this).text() + " ");
+
+    });
+
+    $("a.osd-tab__category").click(function () {
+        $("#nav-tabs-dropdown .dropdown-toggle").text($(this).text() + " ");
     });
 }

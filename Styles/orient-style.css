@@ -2446,6 +2446,15 @@ a.article-detail__topic {
     max-width: 100%;
 }
 
+.title-container__img.--ex-small-img {
+    flex: 1 1 40px;
+    max-width: 40px;
+}
+.title-container__title.--ex-small-text {
+    flex: 1 1 calc(100% - 40px);
+    max-width: calc(100% - 40px);
+}
+
 @media(min-width: 768px) {
     .title-container__img {
         flex: 1 1 130px;
@@ -4733,7 +4742,7 @@ h2.pillar-section-title {
     position: relative;
     border: none;
     background: none;
-    padding: 18px 15px 18px 0;
+    padding: 15px 15px 15px 0;
 }
 
 .osd-tab__cards .card-body {
@@ -4855,6 +4864,13 @@ h2.pillar-section-title {
 }
 
 
+
+
+@media screen and (max-width: 767px) {
+    .content-background.--hide-bg-mobile {
+        background: none!important;
+    }
+}
 
 @media(max-width:650px) {
     .contact-modal .modal-dialog {
