@@ -9,6 +9,10 @@ $(document).ready(function() {
     closeNavigateMenuOnOutsideClick();
 
     collapseOnDesktop();
+
+    $(window).resize(function () {
+        collapseOnDesktop();
+    });
 });
 
 function closeNavigateMenuOnOutsideClick() {
@@ -105,6 +109,9 @@ function collapseOnDesktop() {
     if ($(window).width() >= 576) {
         $("#why-go-for-react-1-1 .btn-link").addClass("collapsed");
         $("#why-go-for-react-1-collapse-1").removeClass("show");
+    }else {
+        $("#why-go-for-react-1-1 .btn-link").removeClass("collapsed");
+        $("#why-go-for-react-1-collapse-1").addClass("show");
     }
 }
 
