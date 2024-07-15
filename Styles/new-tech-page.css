@@ -265,6 +265,10 @@
     display: none;
 }
 
+.new-tech-page .osd-tab__category.--show-arrow::after {
+    transform: rotate(-90deg);
+}
+
 .new-tech-page .osd-tab__category.active::after {
     position: absolute;
     display: block;
@@ -440,6 +444,20 @@
     font-size: 14px;
 }
 
+
+.expanable-box {
+    overflow: hidden;
+    text-overflow: clip;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.expanable-box__button {
+    cursor: pointer;
+    color: #F89500;
+}
+
 @media screen and (max-width: 575px) {
     .new-tech-page .article-list__item.--small {
         max-height: max-content;
@@ -607,6 +625,10 @@
     .new-tech-page .osd-tab__category::after,
     .new-tech-page .osd-tab__category.active::after {
         display: none;
+    }
+
+    .new-tech-page .osd-tab__category.active.--show-arrow::after {
+        display: block;
     }
 
     .new-tech-page .article-list__item__title {
