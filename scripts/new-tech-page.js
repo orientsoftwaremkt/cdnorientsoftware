@@ -107,15 +107,18 @@ function closeCardOnClick() {
 
 function collapseOnDesktop() {
     if ($(window).width() >= 576) {
-        $("#why-go-for-react-1-1 .btn-link").addClass("collapsed");
-        $("#why-go-for-react-1-collapse-1").removeClass("show");
+        $(".show-first .btn-link").addClass("collapsed");
+        $(".show-first").removeClass("show");
     }else {
-        $("#why-go-for-react-1-1 .btn-link").removeClass("collapsed");
-        $("#why-go-for-react-1-collapse-1").addClass("show");
+        $(".show-first .btn-link").removeClass("collapsed");
+        $(".show-first").addClass("show");
     }
 }
 
-
+function expandOnClick(id) {
+    $(id + " .expanable-box__wrapper").addClass("d-block");
+    $(id + " .expanable-box__button").addClass("d-none");
+}
 
 function openFAQTabContentOnDropdownClick() {
     $("#nav-tabs-dropdown .dropdown-item").click(function () {

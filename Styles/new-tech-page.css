@@ -446,16 +446,23 @@
 
 
 .expanable-box {
+    border-bottom: 1px solid #0A09054D;
+}
+
+.expanable-box__wrapper {
     overflow: hidden;
     text-overflow: clip;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
 
 .expanable-box__button {
     cursor: pointer;
+    display: block;
     color: #F89500;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 575px) {
@@ -629,6 +636,7 @@
 
     .new-tech-page .osd-tab__category.active.--show-arrow::after {
         display: block;
+        bottom: 18px;
     }
 
     .new-tech-page .article-list__item__title {
