@@ -116,8 +116,13 @@ function collapseOnDesktop() {
 }
 
 function expandOnClick(id) {
-    $(id + " .expanable-box__wrapper").addClass("d-block");
-    $(id + " .expanable-box__button").addClass("d-none");
+    if($(id + " .expanable-box__wrapper").hasClass("d-block")) {
+        $(id + " .expanable-box__wrapper").removeClass("d-block");
+        $(id + " .expanable-box__button").text("View more");
+    } else {
+        $(id + " .expanable-box__wrapper").addClass("d-block");
+        $(id + " .expanable-box__button").text("View less");
+    }
 }
 
 function openFAQTabContentOnDropdownClick() {

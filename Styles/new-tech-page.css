@@ -269,6 +269,13 @@
     transform: rotate(-90deg);
 }
 
+.new-tech-page .osd-tab__category.--show-arrow::before,
+.new-tech-page .osd-tab__category.active.--show-arrow::before,
+.new-tech-page .osd-tab__category.--show-arrow:hover::before {
+    background-color: #DEDEDE;
+    height: 1px;
+}
+
 .new-tech-page .osd-tab__category.active::after {
     position: absolute;
     display: block;
