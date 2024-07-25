@@ -27,6 +27,12 @@ function initSharePanel() {
             $(".article-detail__fixed-part").removeClass("sticky");
         }
 
+        if(blogContentPosBottom < scrollPos) {
+            $(".article-detail__fixed-part").addClass("--stick-bottom");
+        }else {
+            $(".article-detail__fixed-part").removeClass("--stick-bottom");
+        }
+
         const offsetAdsBanner = 500;
         if((blogContentPosBottom - offsetAdsBanner) < scrollPos) {
             $("#sharePanel .article-detail__ads-image").css("opacity","0").css("z-index","-1");

@@ -2285,6 +2285,12 @@ a.article-detail__topic {
     top: 100px !important;
 }
 
+.article-detail__fixed-part.--stick-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 130px;
+}
+
 .article-detail__fixed-part.--left {
     line-height: 1.2;
     left: 15px;
