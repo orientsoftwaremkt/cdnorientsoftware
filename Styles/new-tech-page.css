@@ -663,6 +663,23 @@
     .tech-blog-article-wrapper__title {
         font-size: 24px;
     }
+
+    .expanable-box {
+        border-bottom: none;
+    }
+
+    .expanable-box__wrapper {
+        overflow: auto;
+        text-overflow: initial;
+        display: block;
+        -webkit-line-clamp: initial;
+    }
+
+    .expanable-box__title {
+        padding-bottom: 20px;
+        position: relative;
+        border-bottom: 1px solid #000;
+    }
 }
 
 @media screen and (min-width: 1230px) {
