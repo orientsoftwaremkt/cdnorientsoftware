@@ -994,6 +994,25 @@ a.read-more.arrow:hover {
     top: 12px;
 }
 
+.osd-customize-bullet li ul {
+    position: relative;
+    list-style-type: none;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.osd-customize-bullet li ul li::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #dddddd;
+    border-radius: 50%;
+    left: -30px;
+    top: 12px;
+}
+
 .osd-customize-bullet--dark ul li::before{
     background: #000;
     width: 5px;
