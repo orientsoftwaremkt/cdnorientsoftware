@@ -998,19 +998,20 @@ a.read-more.arrow:hover {
     position: relative;
     list-style-type: none;
     line-height: 1.4;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 .osd-customize-bullet li ul li::before {
     position: absolute;
     content: "";
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     display: inline-block;
-    background: #dddddd;
+    background: #000;
     border-radius: 50%;
-    left: -30px;
-    top: 12px;
+    left: -20px;
+    top: 11px;
 }
 
 .osd-customize-bullet--dark ul li::before{
