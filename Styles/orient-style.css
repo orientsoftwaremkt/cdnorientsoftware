@@ -2210,7 +2210,8 @@ a.article-detail__topic {
     padding: 5px 15px;
 }
 
-.article-detail__table thead {
+.article-detail__table thead,
+.--highlight-column {
     background-image: linear-gradient(90deg, #EFAD6B 0.09%, #F49535 99.99%);
 }
 .article-detail__table.--no-header thead {

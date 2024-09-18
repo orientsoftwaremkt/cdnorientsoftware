@@ -104,7 +104,7 @@ function setClassForToCItemOnScroll() {
         sectionIDs.forEach(function(id) {
             var anchorEl = $("a[href=\"" + id + "\"");
             if($(id).offset().top < scrollPos && scrollPos < contentPosBottom) {
-                $("li.toc-entry a").removeClass("active");
+                $(".toc-entry a").removeClass("active");
                 anchorEl.addClass("active");
             }
         });
