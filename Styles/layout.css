@@ -301,6 +301,14 @@ a:hover {
     color: #EE3C39!important;
 }
 
+.text-light-blue {
+    color: #00FFFF!important;
+}
+
+.text-blue {
+    color: #007bff!important;
+}
+
 @media (max-width: 991px) {
     .pt-md-0--max-width {
         padding-top: 0 !important;
