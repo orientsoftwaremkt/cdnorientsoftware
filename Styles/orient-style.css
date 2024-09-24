@@ -2463,6 +2463,16 @@ a.article-detail__topic {
     max-width: calc(100% - 40px);
 }
 
+.title-container__img.--medium-img--mobile {
+    flex: 1 1 100px;
+    max-width: 100px;
+}
+
+.title-container__title.--medium-text--mobile {
+    flex: 1 1 calc(100% - 100px);
+    max-width: calc(100% - 100px);
+}
+
 @media(min-width: 768px) {
     .title-container__img {
         flex: 1 1 130px;
