@@ -82,12 +82,12 @@ function collapseOnDesktop() {
 }
 
 function expandOnClick(id) {
-    if($(id + " .expanable-box__wrapper").hasClass("d-block")) {
+    if($(id + " .expanable-box__wrapper").hasClass("--overflow-y-auto")) {
         $(id + " .expanable-box__wrapper").scrollTop(0);
-        $(id + " .expanable-box__wrapper").removeClass("d-block");
+        $(id + " .expanable-box__wrapper").removeClass("--overflow-y-auto");
         $(id + " .expanable-box__button").text("View more");
     } else {
-        $(id + " .expanable-box__wrapper").addClass("d-block");
+        $(id + " .expanable-box__wrapper").addClass("--overflow-y-auto");
         $(id + " .expanable-box__button").text("View less");
     }
 }
