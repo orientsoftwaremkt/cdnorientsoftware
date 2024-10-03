@@ -1,8 +1,13 @@
 var readingTime = 0;
 $(document).ready(function() {
     initSharePanel();
-    setClassForToCItemOnScroll();
-    setClassForToCItemOnClick();
+    if(window.location.pathname != "/blog/what-is-odc/") {
+        setClassForToCItemOnScroll(150);
+        setClassForToCItemOnClick(100);
+    } else {
+        setClassForToCItemOnScroll(220);
+        setClassForToCItemOnClick(170);
+    }
 
     readingTime = calculateReadingTime();
 });
@@ -93,10 +98,9 @@ function getSectionId() {
     return sectionIds;
 }
 
-function setClassForToCItemOnScroll() {
+function setClassForToCItemOnScroll(offset) {
     var sectionIDs = getSectionId();
     var contentPosBottom = 0;
-    const offset = 150;
 
     $(document).scroll(function () {
         contentPosBottom = setContentPosBottom("#blog-content");
@@ -111,8 +115,7 @@ function setClassForToCItemOnScroll() {
     });
 }
 
-function setClassForToCItemOnClick() {
-    const offset = 100;
+function setClassForToCItemOnClick(offset) {
     $(".toc-entry a").click(function(e) {
         e.preventDefault();
         var id = $(this).attr("href");
