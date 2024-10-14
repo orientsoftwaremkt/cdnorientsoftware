@@ -2134,7 +2134,7 @@ h2.small-black,
     text-align: left;
     font-weight: 600;
     margin-bottom: 10px;
-    font-size: 23px;
+    font-size: 20px;
     color: #333;
     padding-top: 0;
 }
@@ -2336,6 +2336,10 @@ a.article-detail__topic {
 
     .article-detail-container h1 {
         font-size: 42px;
+    }
+
+    .article-detail-container h3 {
+        font-size: 23px;
     }
 
     .article-detail-container h3.--big-title {

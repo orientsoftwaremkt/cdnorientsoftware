@@ -283,6 +283,10 @@ a:hover {
     color: #EE3C39!important;
 }
 
+.text-orange {
+    color: #F47E20!important;
+}
+
 .text-light-blue {
     color: #00FFFF!important;
 }
@@ -1031,6 +1035,14 @@ a.read-more.arrow:hover {
 .osd-customize-bullet--radial-purple ul li::before {
     background: #7A91FB;
     border: 3.5px solid rgba(255, 255, 255, 0.7);
+    top: 6px;
+    width: 15px;
+    height: 15px;
+}
+
+.osd-customize-bullet--radial-orange ul li::before {
+    background: #F47E20;
+    border: 3.5px solid #fcd8bc;
     top: 6px;
     width: 15px;
     height: 15px;
