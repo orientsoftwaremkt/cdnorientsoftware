@@ -40,7 +40,12 @@ function getInputDataModal() {
     dataPost.captcha = captcha;
     dataPost.customSubject = customSubject;
     dataPost.mailFrom = mailFrom;
-    dataPost.detailedSource = window.location.pathname === "/" ? "Home page" : window.location.pathname;
+
+    if(sessionStorage.previousURL) {
+        dataPost.detailedSource = sessionStorage.previousURL;
+    } else {
+        dataPost.detailedSource = window.location.pathname === "/" ? "Home page" : window.location.pathname;
+    }
     dataPost.sourceID = sessionStorage.getItem("sourceID");
 
     sessionStorage.setItem("clientMessage", message);
@@ -49,7 +54,9 @@ function getInputDataModal() {
     sessionStorage.setItem("clientAction", "TryOurServices");
     sessionStorage.setItem("clientCaptcha", captcha);
     sessionStorage.setItem("clientMailFrom", mailFrom);
-    sessionStorage.setItem("clientDetailedSource", window.location.pathname === "/" ? "Home page" : window.location.pathname);
+    sessionStorage.setItem("clientDetailedSource", dataPost.detailedSource);
+
+    console.log(dataPost);
 
     return dataPost;
 }

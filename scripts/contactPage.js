@@ -44,7 +44,14 @@ $(document).ready((function () {
 
 function getLeadSource() {
     // var leadSource = url.searchParams.get("utm_source");
-    var leadSource = url.pathname.includes("/lp/")? "google-ads" : url.searchParams.get("utm_source");
+    var leadSource = '';
+    if(url.pathname == "/lp/contact-information/") {
+        leadSource = "organic";
+    } else if (url.pathname.includes("/lp/")) {
+        leadSource = "google-ads";
+    } else {
+        leadSource = url.searchParams.get("utm_source");
+    }
 
     if(typeof(Storage) !== "undefined") {
         if(!sessionStorage.getItem("sourceID")) {

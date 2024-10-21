@@ -1,3 +1,9 @@
+.xl-text {
+    font-size: 36px!important;
+    font-weight: 500!important;
+    line-height: 1.5!important;
+}
+
 .h1-text {
     font-size: 28px!important;
     font-weight: 500!important;
@@ -49,6 +55,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .xl-text {
+        font-size: 60px!important;
+    }
+
     .h1-text {
         font-size: 32px!important;
     }

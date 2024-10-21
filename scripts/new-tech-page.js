@@ -111,6 +111,7 @@ function openFAQTabContentOnDropdownClick() {
     });
 }
 
-function goToSlide(carousel, slideNum) {
-    $(carousel).owlCarousel().trigger('to.owl.carousel', [slideNum,300]);;
+function openContactForm(previousURL, ctaURL) {
+    sessionStorage.setItem("previousURL", previousURL);
+    location.href = ctaURL;
 }
