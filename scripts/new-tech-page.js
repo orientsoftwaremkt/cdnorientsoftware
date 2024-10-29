@@ -7,10 +7,12 @@ $(document).ready(function() {
     closeNavigateMenuOnOutsideClick();
 
     collapseOnDesktop();
+    collapseNavigateOnTablet()
     closeModalOnMobile();
 
     $(window).resize(function () {
         collapseOnDesktop();
+        collapseNavigateOnTablet();
         closeModalOnMobile();
     });
 });
@@ -78,6 +80,16 @@ function collapseOnDesktop() {
     }else {
         $(".show-first .btn-link").removeClass("collapsed");
         $(".show-first").addClass("show");
+    }
+}
+
+function collapseNavigateOnTablet() {
+    if ($(window).width() >= 1200) {
+        $("#navigate-card .btn-link").removeClass("collapsed");
+        $("#navigate-card-collapse-1").addClass("show");
+    }else {
+        $("#navigate-card .btn-link").addClass("collapsed");
+        $("#navigate-card-collapse-1").removeClass("show");
     }
 }
 
