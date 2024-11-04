@@ -35,6 +35,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #333;
+    scroll-behavior: smooth;
     padding: 0 !important;
     font-family: "Nunito Sans Variable",sans-serif;
     font-weight:400;
@@ -188,18 +189,20 @@ footer.osd-footer p {
 
 a {
     background: 0 0;
-    color: #1C57C0;
+    color: #5d285f;
 }
 a:hover {
     text-decoration: underline;
+    color: #5d285f;
 }
+
 
 .dark-background a {
     color: #fff;
     text-decoration: underline;
 }
 .dark-background a:hover {
-    color: #1C57C0;
+    color: #fff;
 }
 
 .row {

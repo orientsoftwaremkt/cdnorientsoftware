@@ -1,10 +1,8 @@
 const breakPoint = 1300;
 
 $(document).ready(function() {
-    initSideMenu();
-    closeCardOnClick();
+
     openFAQTabContentOnDropdownClick();
-    closeNavigateMenuOnOutsideClick();
 
     collapseOnDesktop();
     collapseNavigateOnTablet()
@@ -23,55 +21,8 @@ function closeModalOnMobile() {
     }
 }
 
-function closeNavigateMenuOnOutsideClick() {
-    $("#blog-content").on( "click", function() {
-        $("#navigate-card .btn-link").addClass("collapsed");
-        $("#navigate-card-collapse-1").removeClass("show");
 
-    });
-}
 
-function initSideMenu() {
-    var blogContentPosTop = 0;
-    var blogContentPosBottom = 0;
-    const offset = -100;
-
-    setTimeout(function() {
-        blogContentPosTop = $("#blog-content").offset().top;
-    }, 300);
-
-    var scrollPos = $(document).scrollTop() + offset;
-    blogContentPosBottom = setContentPosBottom("#blog-content");
-    if(blogContentPosTop < scrollPos && blogContentPosBottom >= scrollPos) {
-        $("#navigate-list").addClass("hide-on-scroll");
-        $("#navigate-card").removeClass("d-none");
-    }else{
-        $("#navigate-list").removeClass("hide-on-scroll");
-        $("#navigate-card").addClass("d-none");
-    }
-
-    $(document).scroll(function () {
-        scrollPos = $(document).scrollTop() + offset;
-
-        blogContentPosBottom = setContentPosBottom("#blog-content");
-
-        if(blogContentPosTop < scrollPos && blogContentPosBottom >= scrollPos) {
-            $("#navigate-list").addClass("hide-on-scroll");
-            $("#navigate-card").removeClass("d-none");
-        }else{
-            $("#navigate-list").removeClass("hide-on-scroll");
-            $("#navigate-card").addClass("d-none");
-        }
-    });
-}
-
-function closeCardOnClick() {
-    $("#navigate-card .tech-toc__item").click(function(e) {
-        e.preventDefault();
-        $("#navigate-card .btn-link").addClass("collapsed");
-        $("#navigate-card-collapse-1").removeClass("show");
-    });
-}
 
 function collapseOnDesktop() {
     if ($(window).width() >= 576) {
@@ -84,7 +35,7 @@ function collapseOnDesktop() {
 }
 
 function collapseNavigateOnTablet() {
-    if ($(window).width() >= 1200) {
+    if ($(window).width() >= 1367) {
         $("#navigate-card .btn-link").removeClass("collapsed");
         $("#navigate-card-collapse-1").addClass("show");
     }else {

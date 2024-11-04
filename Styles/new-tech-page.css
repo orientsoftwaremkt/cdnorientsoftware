@@ -58,7 +58,7 @@
 .btn-contact-primary {
     border: none;
     background-color: #ea2323;
-    background-image: linear-gradient(to right, #5D285F, #E64940);
+    background-image: linear-gradient(to right, #5D285F, #EE3C39);
     background-size: 0 100%;
     background-repeat: no-repeat;
     border-radius: 25px;
@@ -118,7 +118,7 @@
     background-image: radial-gradient(circle at center bottom, #F0CA8D 0%, #fff 30%);
 }
 .gradient-background.--purple-red {
-    background-image: linear-gradient(to right, #72195A, #E64940 );
+    background-image: linear-gradient(to right, #72195A, #EE3C39 );
 }
 
 .gradient-cirle {
@@ -150,7 +150,7 @@
 
 .view-more-link {
     cursor: pointer;
-    background: linear-gradient(0deg, #72195A, #E64940);
+    background: linear-gradient(0deg, #72195A, #EE3C39);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0;
@@ -170,18 +170,18 @@
 }
 
 .view-more-link:hover {
-    background: #E64940;
+    background: #EE3C39;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #E64940;
+    -webkit-text-fill-color: #EE3C39;
     text-decoration: none;
 }
 
 .view-more-link:hover::after {
-    background: #E64940;
+    background: #EE3C39;
 }
 
 .view-more-link:hover svg path {
-    fill: #E64940;
+    fill: #EE3C39;
 }
 
 .view-more-link::after {
@@ -191,7 +191,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(0deg, #72195A, #E64940);
+    background: linear-gradient(0deg, #72195A, #EE3C39);
 }
 
 .view-more-link.text-white {
@@ -329,7 +329,7 @@
     content: counter(numbered-background, decimal-leading-zero);
     font-size: 180px;
     font-weight: 900;
-    color: #E53616;
+    color: #EE3C39;
     opacity: .12;
     left: 0;
     top: -48px;
@@ -642,11 +642,22 @@
 }
 
 .tech-toc {
-    display: none;
+    position: relative;
     font-size: 14px;
-    max-width: 250px;
+    max-width: 100%;
+    width: 100%;
+    right: 0;
+    top: 52px;
     overflow: hidden;
     z-index: 3;
+}
+
+.tech-toc.article-detail__fixed-part.sticky {
+    top: 51px!important;
+}
+
+.tech-toc.--stick-bottom {
+    display: none;
 }
 
 .tech-toc__item {
@@ -695,7 +706,6 @@
 }
 
 #navigate-card {
-    position: fixed;
     width: 100%;
     padding: 0;
     z-index: 4;
@@ -703,8 +713,6 @@
     flex-wrap: wrap;
     align-items: start;
     justify-content: space-between;
-    top: 50px;
-    z-index: 4;
     background: #fff;
 }
 
@@ -766,6 +774,10 @@
     visibility: hidden;
 }
 
+.hide-on-mobile {
+    display: none;
+}
+
 
 .new-tech-page .article-list__item__title,
 .tech-blog-article-wrapper__title {
@@ -807,10 +819,6 @@
     max-height: 185px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-.new-tech-page .article-detail__fixed-part.sticky {
-    position: absolute;
 }
 
 
@@ -1047,7 +1055,7 @@
         color: #fff;
     }
     .hover-box:hover.hover-box--red {
-        background-color: #E53616;
+        background-color: #EE3C39;
         color: #fff;
     }
     .hover-box:hover.hover-box--purple {
@@ -1137,12 +1145,26 @@
         font-size: 60px;
     }
 
+    .overlapped-box {
+        left: calc((100% - 1190px) / 2);
+    }
+}
+
+
+@media screen and (min-width: 1367px) {
+    .tech-toc {
+        position: absolute;
+        max-width: max-content;
+        right: calc((100% - 1370px) / 2);
+    }
+
+    .tech-toc.article-detail__fixed-part.sticky {
+        top: 100px!important;
+    }
+
     #navigate-card {
-        position: fixed;
-        padding: 15px 15px 0;
+        padding: 15px 0 0;
         width: 250px;
-        top: 60px;
-        right: calc((100% - 1300px) / 2);
         box-shadow: none;
     }
 
@@ -1152,31 +1174,28 @@
         margin-bottom: 15px;
     }
 
+    #navigate-card .card-header {
+        background: none;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    #navigate-card .btn-link {
+        color: #EE3C39;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #navigate-card .btn-link::before, #navigate-card .btn-link::after {
+        background-color: #EE3C39;
+    }
+
     #navigate-card .btn-contact-primary {
         max-width:none;
     }
 
-    .overlapped-box {
-        left: calc((100% - 1190px) / 2);
-    }
-}
-
-
-@media screen and (min-width: 1300px) {
-    .tech-toc {
-        right: calc((100% - 1330px) / 2);
+    .hide-on-mobile {
         display: block;
-        position: absolute;
-        top: 150px;
-    }
-}
-
-@media screen and (min-width: 1367px) {
-    #navigate-card {
-        right: calc((100% - 1370px) / 2);
-    }
-
-    .tech-toc {
-        right: calc((100% - 1370px) / 2);
     }
 }
