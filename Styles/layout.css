@@ -34,7 +34,7 @@ body {
     margin: 0;
     font-size: 18px;
     line-height: 1.5;
-    color: #333;
+    color: #000;
     scroll-behavior: smooth;
     padding: 0 !important;
     font-family: "Nunito Sans Variable",sans-serif;
@@ -134,7 +134,7 @@ h1 {
     font-stretch: normal;
     line-height: 1.17;
     letter-spacing: normal;
-    color: #ea2323;
+    color: #F93822;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -147,7 +147,7 @@ h2 {
     font-stretch: normal;
     line-height: 1.3;
     letter-spacing: normal;
-    color: #ea2323;
+    color: #F93822;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -160,14 +160,14 @@ h3, h3 a, .big-text {
     font-stretch: normal;
     line-height: 1.3;
     letter-spacing: normal;
-    color: #333;
+    color: #000;
     text-align: left;
     margin-bottom: 10px;
 }
 
 h3 a:hover,
 h4 a:hover {
-    color: #333;
+    color: #000;
     text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ h4, h4 a {
     font-size: 20px;
     line-height: 1.2;
     text-align: left;
-    color: #333;
+    color: #000;
 }
 h1, h2, h3, h3 a, h4, h4 a {
     font-family: "Nunito Sans Variable", sans-serif;
@@ -283,7 +283,7 @@ a:hover {
 }
 
 .text-red {
-    color: #EE3C39!important;
+    color: #F93822!important;
 }
 
 .text-orange {
@@ -296,6 +296,10 @@ a:hover {
 
 .text-blue {
     color: #007bff!important;
+}
+
+.text-black {
+    color: #000!important;
 }
 
 @media (max-width: 991px) {
@@ -461,8 +465,8 @@ a:hover {
 }
 
 .osd-container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .osd-hr-row {
@@ -531,8 +535,8 @@ a.text-link-underline:hover {
 @media(min-width:768px) {
 
     .osd-container-fluid {
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -869,8 +873,8 @@ a.text-link-underline:hover {
     font-size: 16px;
 }
 .osd-btn--primary {
-    border: 1px solid #ea2323;
-    background-color: #ea2323;
+    border: 1px solid #F93822;
+    background-color: #F93822;
     border-radius: 8px;
     color: #ffffff!important;
     font-weight: 600;
@@ -879,10 +883,10 @@ a.text-link-underline:hover {
 }
 
 .osd-btn--secondary {
-    border: 1px solid #ea2323;
+    border: 1px solid #F93822;
     background-color: transparent;
     border-radius: 8px;
-    color: #ea2323!important;
+    color: #F93822!important;
     font-weight:400;
 }
 
@@ -920,12 +924,12 @@ a.read-more.arrow {
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
-    color: #ea2323;
+    color: #F93822;
     cursor: pointer;
 }
 
 a.read-more.arrow:hover {
-    color: #ea2323;
+    color: #F93822;
     font-weight: 600;
 }
 
@@ -1018,7 +1022,7 @@ a.read-more.arrow:hover {
 }
 
 .osd-customize-bullet--red ul li::before{
-    background: #ea2323;
+    background: #F93822;
     top: 14px;
 }
 
@@ -1028,7 +1032,7 @@ a.read-more.arrow:hover {
 }
 
 .osd-customize-bullet--radial-red ul li::before {
-    background: #ea2323;
+    background: #F93822;
     border: 3.5px solid #ff9d97;
     top: 6px;
     width: 15px;

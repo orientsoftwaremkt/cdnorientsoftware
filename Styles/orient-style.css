@@ -35,7 +35,7 @@
 }
 
 .--red-border-left {
-    border-left: 5px solid #f93635;
+    border-left: 5px solid #F93822;
 }
 
 .--no-shadow {
@@ -723,7 +723,7 @@ div.team-logo>div:nth-child(5n+0) {
 }
 
 a.see-more {
-    color: #f93635 !important;
+    color: #F93822 !important;
     position: relative;
     font-size: 16px;
     padding-right: 35px;
@@ -1374,7 +1374,7 @@ h1.five-tips-title {
 .news-quote__title::before {
     position: absolute;
     content: "”";
-    color: #f93635;
+    color: #F93822;
     font-size: 75px;
     line-height: 1;
     right: 0;
@@ -1708,8 +1708,8 @@ img.lazy-load.loaded {
 
 .article-list__category:hover,
 .article-list__category.active {
-    color: #f93635;
-    border: 1px solid #f93635;
+    color: #F93822;
+    border: 1px solid #F93822;
 }
 
 .article-list__container {
@@ -1814,7 +1814,7 @@ img.lazy-load.loaded {
 
 .article-list__item__title a:hover,
 .article-list__item:hover .article-list__item__title {
-    color: #f93635;
+    color: #F93822;
 }
 
 .article-list__item__description {
@@ -1863,7 +1863,7 @@ img.lazy-load.loaded {
 }
 
 .article-detail__paragraph-title {
-    border-left: 4px solid #f93635;
+    border-left: 4px solid #F93822;
     padding-left: 10px;
 }
 
@@ -1884,19 +1884,19 @@ img.lazy-load.loaded {
 .article-detail__key-takeaways::before {
     top: 0;
     left: 0;
-    border-top: 2px solid #f93635;
-    border-left: 2px solid #f93635;
+    border-top: 2px solid #F93822;
+    border-left: 2px solid #F93822;
 }
 
 .article-detail__key-takeaways::after {
     bottom: 0;
     right: 0;
-    border-bottom: 2px solid #f93635;
-    border-right: 2px solid #f93635;
+    border-bottom: 2px solid #F93822;
+    border-right: 2px solid #F93822;
 }
 
 .blog-item__category {
-    color: #f93635 !important;
+    color: #F93822 !important;
 }
 
 .category-thumbnails-text {
@@ -1976,7 +1976,7 @@ img.lazy-load.loaded {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #f93635;
+    background-color: #F93822;
     left: 0;
     bottom: 12px;
 }
@@ -2118,7 +2118,7 @@ img.lazy-load.loaded {
 .article-detail-container h1 {
     font-size: 30px;
     letter-spacing: -1px;
-    line-height: 1.33;
+    line-height: 1.25;
     color: #333;
 }
 
@@ -2126,7 +2126,7 @@ h2.big-red {
     text-align: left;
     margin-bottom: 15px;
     font-size: 34px;
-    color: #f93635;
+    color: #F93822;
 }
 
 h2.small-black,
@@ -2177,7 +2177,7 @@ h2.small-black,
     content: "";
     width: 7px;
     height: 100%;
-    background-color: #f93635;
+    background-color: #F93822;
     top: 0;
     left: 0;
 }
@@ -2199,7 +2199,7 @@ a.article-detail__topic {
     background-color: #f3f3f3;
     border-radius: 0 6px 6px 0;
     margin-left: 15px;
-    border-left: 2px solid #f93635;
+    border-left: 2px solid #F93822;
 }
 
 .article-detail__table {
@@ -2321,7 +2321,7 @@ a.article-detail__topic {
     display: inline-block;
 }
 .article-detail__content-map a.active {
-    border-color: #F93635;
+    border-color: #F93822;
     color: #000;
     font-weight: 700;
 }
@@ -2382,7 +2382,7 @@ a.article-detail__topic {
     .article-detail__ads-banner {
         background: none;
         height: auto;
-        border: solid 2px #f93635;
+        border: solid 2px #F93822;
     }
 }
 
@@ -2446,7 +2446,7 @@ a.article-detail__topic {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #f93635;
+    background-color: #F93822;
     left: -15px;
     top: 13px;
 }
@@ -2501,7 +2501,7 @@ a.article-detail__topic {
     .title-container__img {
         flex: 1 1 130px;
         max-width: 130px;
-        border-right: 4px solid #f93635;
+        border-right: 4px solid #F93822;
     }
 
     .title-container__img.--medium-img,
@@ -2626,7 +2626,7 @@ a.article-detail__topic {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #f93635;
+        background-color: #F93822;
         left: 50%;
         bottom: -5px;
         transform: translateX(-50%);
@@ -2769,11 +2769,11 @@ a.article-detail__topic {
 
 .outsource-guide__table-of-content-item:hover .part-text {
     opacity: 1;
-    color: #f93635;
+    color: #F93822;
 }
 
 .outsource-guide__table-of-content-item:hover .part-text::before {
-    background-color: #f93635;
+    background-color: #F93822;
 }
 
 .outsource-guide__step {
@@ -2781,7 +2781,7 @@ a.article-detail__topic {
 }
 
 .outsource-guide__step-count {
-    color: #f93635;
+    color: #F93822;
     font-size: 20px;
     font-weight: 400;
     position: relative;
@@ -2795,7 +2795,7 @@ a.article-detail__topic {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #f93635;
+    background-color: #F93822;
     box-shadow: 0px 0 0px 7px #ffdddd;
     right: -18px;
     top: 7px;
@@ -2985,7 +2985,7 @@ a.case-study-list__item__read-more {
 }
 
 a.case-study-list__item__read-more:hover {
-    color: #f93635;
+    color: #F93822;
 }
 
 .case-study-list__item:hover {
@@ -3176,7 +3176,7 @@ a.case-study-list__item__read-more:hover {
     content: "";
     height: 100%;
     width: 4px;
-    background-color: #f93635;
+    background-color: #F93822;
     left: 0;
     top: -2px;
 }
@@ -3486,7 +3486,7 @@ a.case-study-list__item__read-more:hover {
     content: "";
     height: 100%;
     width: 3px;
-    background-color: #f93635;
+    background-color: #F93822;
     left: 0;
     top: 0;
 }
@@ -3621,7 +3621,7 @@ a.case-study-list__item__read-more:hover {
 }
 
 .pager li.active{
-    background-color: #f93635;
+    background-color: #F93822;
     border: 2px;
 }
 
@@ -3732,7 +3732,7 @@ a.technology-list__item-name:hover {
 }
 
 .technology-list__item-link {
-    color: #f93635;
+    color: #F93822;
     font-weight: 500;
     position: absolute;
     top: 0;
@@ -3747,7 +3747,7 @@ a.technology-list__item-name:hover {
 }
 
 .technology-list__item-link:hover {
-    color: #f93635;
+    color: #F93822;
 }
 
 .technology-list__item-image:hover .technology-list__item-link {
@@ -3965,7 +3965,7 @@ a.technology-list__item-name:hover {
 }
 
 .carousel-custom-dot button.owl-dot.active {
-    background-color: #f93635;
+    background-color: #F93822;
     width: 20px;
     border-radius: 20px;
 }
@@ -4031,7 +4031,7 @@ a.technology-list__item-name:hover {
     content: "";
     width: 80px;
     height: 3px;
-    background-color: #f93635;
+    background-color: #F93822;
     left: 0;
     bottom: -7px;
 }
@@ -4073,7 +4073,7 @@ a.technology-list__item-name:hover {
     content: "";
     height: 95%;
     width: 3px;
-    background: #f93635;
+    background: #F93822;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -4332,7 +4332,7 @@ h2.pillar-section-title {
         height: 100%;
         width: 1px;
         opacity: 0.4;
-        border-right: 1px dashed #f93635;
+        border-right: 1px dashed #F93822;
         top: 0;
         left: 10px;
     }
@@ -4342,7 +4342,7 @@ h2.pillar-section-title {
         content: "";
         width: 20px;
         height: 20px;
-        background: #f93635;
+        background: #F93822;
         border: 5px solid #ffdddd;
         border-radius: 50%;
         top: 4px;
@@ -4376,7 +4376,7 @@ h2.pillar-section-title {
     }
 
     h2.pillar-section-title {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .summary {
@@ -4509,13 +4509,13 @@ h2.pillar-section-title {
 .two-columns-with-numbering-container::before {
     position: relative;
     content: counter(how-we-do);
-    color: #f93635;
+    color: #F93822;
     font-size: 26px;
     font-weight: 600;
     width: 60px;
     height: 60px;
     background-color: #fff;
-    border: 2px solid #f93635;
+    border: 2px solid #F93822;
     border-radius: 50%;
     text-align: center;
     line-height: 52px;
@@ -4591,7 +4591,7 @@ h2.pillar-section-title {
 }
 .tab-pill__btn.active {
     color: #333;
-    border-bottom: 3px solid #f93635;
+    border-bottom: 3px solid #F93822;
 }
 
 .tab-pill__btn:hover {
@@ -4612,7 +4612,7 @@ h2.pillar-section-title {
     position: relative;
 }
 .tab-content__item:hover {
-    border-bottom: 8px solid #EE3C39;
+    border-bottom: 8px solid #F93822;
 }
 
 
@@ -4833,7 +4833,7 @@ h2.pillar-section-title {
 }
 
 .osd-tab__cards .btn-link:hover {
-    color: #f93635;
+    color: #F93822;
 }
 
 .osd-tab__cards .btn-link:hover::before {
@@ -4864,7 +4864,7 @@ h2.pillar-section-title {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #f93635;
+    background: #F93822;
     top: 18px;
     left: -20px;
 }
@@ -4886,7 +4886,7 @@ h2.pillar-section-title {
     position: absolute;
     width: 95%;
     height: 4px;
-    background-color: #f93635;
+    background-color: #F93822;
     bottom: 15px;
     right: 15px;
 }
@@ -4959,7 +4959,7 @@ h2.pillar-section-title {
         content: "";
         height: 110%;
         width: 1px;
-        border-left: 2px dotted #f93635;
+        border-left: 2px dotted #F93822;
         left: 45px;
         top: 50%;
         z-index: 1;
@@ -5197,7 +5197,7 @@ h2.pillar-section-title {
     }
     .tab-pill__btn.active {
         border-bottom: none;
-        border-left: 3px solid #f93635;
+        border-left: 3px solid #F93822;
     }
 
     .tab-content__wrapper {

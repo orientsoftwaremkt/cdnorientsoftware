@@ -58,7 +58,7 @@
 .btn-contact-primary {
     border: none;
     background-color: #ea2323;
-    background-image: linear-gradient(to right, #5D285F, #EE3C39);
+    background-image: linear-gradient(to right, #5D285F, #F93822);
     background-size: 0 100%;
     background-repeat: no-repeat;
     border-radius: 25px;
@@ -118,7 +118,7 @@
     background-image: radial-gradient(circle at center bottom, #F0CA8D 0%, #fff 30%);
 }
 .gradient-background.--purple-red {
-    background-image: linear-gradient(to right, #72195A, #EE3C39 );
+    background-image: linear-gradient(to right, #72195A, #F93822 );
 }
 
 .gradient-cirle {
@@ -150,7 +150,7 @@
 
 .view-more-link {
     cursor: pointer;
-    background: linear-gradient(0deg, #72195A, #EE3C39);
+    background: linear-gradient(0deg, #72195A, #F93822);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0;
@@ -170,18 +170,18 @@
 }
 
 .view-more-link:hover {
-    background: #EE3C39;
+    background: #F93822;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #EE3C39;
+    -webkit-text-fill-color: #F93822;
     text-decoration: none;
 }
 
 .view-more-link:hover::after {
-    background: #EE3C39;
+    background: #F93822;
 }
 
 .view-more-link:hover svg path {
-    fill: #EE3C39;
+    fill: #F93822;
 }
 
 .view-more-link::after {
@@ -191,7 +191,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(0deg, #72195A, #EE3C39);
+    background: linear-gradient(0deg, #72195A, #F93822);
 }
 
 .view-more-link.text-white {
@@ -251,7 +251,7 @@
 }
 
 .--red-border {
-    border: 1px  solid #EE3C39;
+    border: 1px  solid #F93822;
 }
 
 .--orange-border {
@@ -272,6 +272,12 @@
     border-radius: 80px;
     top: 0;
     left: 5px;
+}
+
+.--opaque-bg {
+    background: #FFFFFF66;
+    backdrop-filter: blur(29.600000381469727px);
+    box-shadow: 0px 4px 100px 0px #0000001A;
 }
 
 .--gradient-bg-orange-red {
@@ -329,7 +335,7 @@
     content: counter(numbered-background, decimal-leading-zero);
     font-size: 180px;
     font-weight: 900;
-    color: #EE3C39;
+    color: #F93822;
     opacity: .12;
     left: 0;
     top: -48px;
@@ -477,7 +483,7 @@
 .new-tech-page.--service .btn-link .numbering,
 .new-tech-page.--service .btn-link.--reverse.active .numbering,
 .new-tech-page.--service .btn-link.--reverse.active:hover .numbering {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .new-tech-page.--service .btn-link.collapsed {
@@ -488,6 +494,7 @@
     background: transparent;
 }
 
+.new-tech-page.--service .btn-link.--reverse,
 .new-tech-page.--service .btn-link.--reverse h3,
 .new-tech-page.--service .btn-link.--reverse .numbering {
     color: #B3B3B3;
@@ -502,7 +509,11 @@
 }
 
 .new-tech-page.--service .card-body {
-    padding: 0 15px 20px;
+    padding: 0 15px 20px 35px;
+}
+
+#faq .card-body {
+    padding-left: 15px;
 }
 
 .new-tech-page.--service .btn-link:hover {
@@ -543,6 +554,57 @@
 
 .new-tech-page.--service .tech-blog-article-wrapper .btn-link.collapsed {
     background: #fff;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link {
+    border-radius: 50px;
+    background: #fff;
+    padding: 0 60px 0 0;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link .title-container__img {
+    flex: 1 1 70px;
+    max-width: 70px;
+    background-image: linear-gradient(90deg, #F89E35 26%, #F83535 80%);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed .title-container__img {
+    background: none;
+}
+
+
+.new-tech-page.--service .btn-link-w-icon .btn-link .title-container__title {
+    flex: 1 1 calc(100% - 70px);
+    max-width: calc(100% - 70px);
+    padding-left: 20px;
+    color: #F93822;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed .title-container__title {
+    color: #000;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link::before {
+    background: #F93822;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed::before,
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed::after {
+    background: #000;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed .svg-icon path {
+    stroke: #000;
+}
+
+.new-tech-page.--service .btn-link-w-icon .btn-link.collapsed .svg-icon.--fill-path path {
+    stroke: transparent;
+    fill: #000;
 }
 
 
@@ -679,9 +741,9 @@
     flex: 1 1 60px;
     max-width: 60px;
 }
-.new-tech-page .title-container__title {
-    flex: 1 1 calc(100% - 130px);
-    max-width: calc(100% - 130px);
+.new-tech-page .title-container__title.--small-text {
+    flex: 1 1 calc(100% - 60px);
+    max-width: calc(100% - 60px);
 }
 
 .new-tech-page .article-detail__content-map a {
@@ -691,7 +753,7 @@
 }
 .new-tech-page .article-detail__content-map a.active {
     padding-left: 15px;
-    border-left: 2px solid #f93635;
+    border-left: 2px solid #F93822;
     color: #858585;
     font-weight: 400;
 }
@@ -899,6 +961,16 @@
     text-decoration: none;
 }
 
+.tab-nav-button.--tab-button-gradient-bg {
+    color: #000;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.tab-nav-button.--tab-button-gradient-bg.active {
+    background: linear-gradient(90deg, rgba(255, 121, 0, 0.1) -0.01%, #F93822 78.99%);
+}
+
 
 
 
@@ -986,6 +1058,25 @@
         padding: 13px 60px 13px 30px;
     }
 
+    .new-tech-page.--service .card-body {
+        padding: 0 15px 20px 45px;
+    }
+
+    .new-tech-page.--service .btn-link-w-icon .title-container__img {
+        flex: 1 1 70px;
+        max-width: 70px;
+    }
+
+    .new-tech-page.--service .btn-link-w-icon .title-container__title {
+        flex: 1 1 calc(100% - 70px);
+        max-width: calc(100% - 70px);
+    }
+
+    .new-tech-page.--service .btn-link-w-icon .card-body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .--gradient-bg-orange-red-md-hover:hover {
         background: linear-gradient(90deg, #F89E35 9.18%, #F83535 74.74%);
         border: none;
@@ -1055,7 +1146,7 @@
         color: #fff;
     }
     .hover-box:hover.hover-box--red {
-        background-color: #EE3C39;
+        background-color: #F93822;
         color: #fff;
     }
     .hover-box:hover.hover-box--purple {
@@ -1181,14 +1272,14 @@
     }
 
     #navigate-card .btn-link {
-        color: #EE3C39;
+        color: #F93822;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
 
     #navigate-card .btn-link::before, #navigate-card .btn-link::after {
-        background-color: #EE3C39;
+        background-color: #F93822;
     }
 
     #navigate-card .btn-contact-primary {

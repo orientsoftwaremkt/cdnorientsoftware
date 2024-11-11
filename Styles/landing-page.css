@@ -204,7 +204,7 @@ main {
 }
 
 .custom-tab-pill:hover {
-    color: #EE3C39;
+    color: #F93822;
     text-decoration: none;
 }
 
@@ -259,7 +259,7 @@ main {
     display: block;
     width: calc(33% - 6px);
     height: 4px;
-    background: var(--gardient-orient, linear-gradient(180deg, #EE3C39 0%, #B10100 100%));
+    background: var(--gardient-orient, linear-gradient(180deg, #F93822 0%, #B10100 100%));
     border-radius: 4px;
     bottom: 3px;
     left: 4px;
@@ -373,7 +373,7 @@ main {
     left: 0;
 }
 .custom-radio-button:checked::after {
-    border: 1px solid #EE3C39;
+    border: 1px solid #F93822;
 }
 
 .custom-radio-button:checked::before {
@@ -381,7 +381,7 @@ main {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #EE3C39;
+    background-color: #F93822;
     position: absolute;
     bottom: 2px;
     left: 4px;

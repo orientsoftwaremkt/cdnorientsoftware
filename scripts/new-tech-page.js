@@ -59,6 +59,7 @@ function openFAQTabContentOnDropdownClick() {
     $("#nav-tabs-dropdown .dropdown-item").click(function () {
         $(".tab-pane").removeClass("in active show");
         $("a.osd-tab__category").removeClass("active show");
+        $("a.tab-nav-button").removeClass("active show");
         $(".dropdown-item").removeClass("d-none");
 
         var href = $(this).attr("data-id");
@@ -66,7 +67,7 @@ function openFAQTabContentOnDropdownClick() {
         $("a[href='"+ href +"']").addClass("active show");
         $(this).addClass("d-none");
         $("#nav-tabs-dropdown .dropdown-toggle").text($(this).text() + " ");
-
+        $(".dropdown-menu").removeClass("show");
     });
 
     $("a.osd-tab__category").click(function () {

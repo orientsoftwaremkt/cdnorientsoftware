@@ -13,31 +13,31 @@ $(document).ready((function () {
 
     $(" #con-txtname").focus(function () {
         $('#con-ername').css("display", "none");
-        $('#con-txtname').css("border-color", "#9FB1BD");
+        $('#con-txtname').css("border-color", "#fff");
         $('#con-send').css("display", "none");
     });
 
     $(" #con-txtemail").focus(function () {
         $('#con-eremail').css("display", "none");
-        $('#con-txtemail').css("border-color", "#9FB1BD");
+        $('#con-txtemail').css("border-color", "#fff");
         $('#con-send').css("display", "none");
     });
 
     $(" #con-txtcompany").focus(function () {
         $('#con-ercomp').css("display", "none");
-        $('#con-txtcompany').css("border-color", "#9FB1BD");
+        $('#con-txtcompany').css("border-color", "#fff");
         $('#con-send').css("display", "none");
     });
 
     $(" #con-txtmessage").focus(function () {
         $('#con-ermessage').css("display", "none");
-        $('#con-txtmessage').css("border-color", "#9FB1BD");
+        $('#con-txtmessage').css("border-color", "#fff");
         $('#con-send').css("display", "none");
     });
 
     $(" #con-txtcaptcha").focus(function() {
         $('#con-ercaptcha').css("display", "none");
-        $('#con-txtcaptcha').css("border-color", "#9FB1BD");
+        $('#con-txtcaptcha').css("border-color", "#fff");
         $('#con-send').css("display", "none");
     });
 }));
@@ -159,7 +159,7 @@ function checkName() {
         return false;
     }
     $("#con-ername").css("display", "none");
-    $(" #con-txtname").css("border-color", "#9FB1BD");
+    $(" #con-txtname").css("border-color", "#fff");
     return true;
 }
 
@@ -171,7 +171,7 @@ function checkCompanyName() {
         return false;
     }
     $("#con-ercomp").css("display", "none");
-    $(" #con-txtcompany").css("border-color", "#9FB1BD");
+    $(" #con-txtcompany").css("border-color", "#fff");
     return true;
 }
 
@@ -205,7 +205,7 @@ function checkEmail() {
     }
 
     $(" #con-eremail").css("display", "none");
-    $(" #con-txtemail").css("border-color", "#9FB1BD");
+    $(" #con-txtemail").css("border-color", "#fff");
     return true;
 }
 
@@ -221,7 +221,7 @@ function checkMessage() {
 
     $(" #con-ermessage").css("display", "none");
     // $(" #con-ermessage-2").css("display", "none");
-    $(" #con-txtmessage").css("border-color", "#9FB1BD");
+    $(" #con-txtmessage").css("border-color", "#fff");
     return true;
 }
 
