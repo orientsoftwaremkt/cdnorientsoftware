@@ -1,0 +1,246 @@
+
+.osd-carousel {
+    position: relative;
+}
+
+.osd-carousel__arrow-prev,
+.osd-carousel__arrow-next {
+    position: absolute;
+    width: 23px;
+    height: 45px;
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.osd-carousel__arrow-prev {
+    background-position: -95px -6px;
+    left: 28%;
+}
+
+.osd-carousel__arrow-next {
+    background-position: -68px -6px;
+    right: 28%;
+}
+
+.osd-carousel__caption {
+    padding-right: 90px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 35px;
+    height: 95%;
+    display: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 23px;
+    height: 45px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-prev.png");
+    display: none;
+}
+.carousel-control-next-icon {
+    background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-next.png");
+    display: none;
+}
+
+@media (min-width: 1100px) {
+    .carousel-control-prev {
+        transform: translateX(-100%);
+        display: block;
+    }
+
+    .carousel-control-next {
+        transform: translateX(100%);
+        display: block;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .osd-carousel__caption {
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    /*STYLE CAROUSEL ON MOBILE*/
+    .carousel-mobile .carousel-item,
+    .carousel-mobile .carousel-item.active {
+        position: relative;
+        display: block;
+        opacity: 1;
+        transition: none;
+        transform: translate(0);
+    }
+}
+
+
+
+
+.related-posts .owl-stage {
+    display: flex;
+}
+
+.related-posts .owl-nav button span {
+    display: none;
+}
+
+.related-posts.owl-carousel .owl-nav {
+    position: absolute;
+    width: 1060px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.related-posts.owl-carousel .owl-nav button {
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow.svg');
+    background-size: contain;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+}
+
+.related-posts.owl-carousel .owl-nav button:hover {
+    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-hover.svg');
+}
+
+.related-posts.owl-carousel .owl-nav .owl-prev {
+    transform: rotate(-90deg);
+}
+
+.related-posts.owl-carousel .owl-nav .owl-next {
+    transform: rotate(90deg);
+    float: right;
+}
+
+.related-posts.owl-carousel .owl-nav button:focus {
+    outline: none;
+}
+
+
+
+
+@media(min-width: 1230px) {
+    .related-posts.owl-carousel .owl-nav {
+        width: 1200px;
+    }
+}
+
+
+
+.article-detail-container .osd-carousel__img img {
+    width: 100%;
+    max-height: 393px;
+    object-fit: cover;
+}
+
+
+
+
+
+.case-study-detail__related-post__carousel .owl-stage {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.case-study-detail__related-post__carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.case-study-detail__related-post__carousel button.owl-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.case-study-detail__related-post__carousel button.owl-dot.active {
+    background-color: #161616;
+}
+
+
+
+
+.trusted-clients__carousel .owl-stage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trusted-clients__carousel .owl-stage-outer {
+    padding-bottom: 40px;
+}
+
+
+
+
+.carousel-custom-dot .owl-dots {
+    text-align: center;
+    margin-top: -15px;
+    transform: translateY(4px);
+}
+
+.carousel-custom-dot button.owl-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.carousel-custom-dot button.owl-dot.active {
+    background-color: #F93822;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.carousel-custom-dot .owl-nav {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-custom-dot .owl-nav button.owl-next,
+.carousel-custom-dot .owl-nav button.owl-prev {
+    text-indent: 99999px;
+    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page/icon/sprite-icon-arrows.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.carousel-custom-dot .owl-nav button.owl-prev {
+    background-position: 0 0px;
+}
+
+.carousel-custom-dot .owl-nav button.owl-next {
+    background-position: -75px 0px;
+}
+
+.carousel-custom-dot .owl-nav button.owl-prev:hover {
+    background-position: 0 -70px;
+}
+
+.carousel-custom-dot .owl-nav button.owl-next:hover {
+    background-position: -75px -70px;
+}

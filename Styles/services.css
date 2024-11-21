@@ -31,7 +31,7 @@
     border-radius: 50px;
     padding: 15px 70px 15px 30px;
     background-image: url("https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png");
-    background-color: #ea2323;
+    background-color: #F93822;
     background-repeat: no-repeat;
 }
 
@@ -52,7 +52,7 @@
         border-left: 2px solid #ddd;
     }
     .centered-bordered-left-content.--red-border {
-        border-left: 2px solid #ea2323;
+        border-left: 2px solid #F93822;
     }
 
     .icon-next-text {
@@ -120,8 +120,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #ea2323;
-    border: 1px solid #ea2323;
+    background-color: #F93822;
+    border: 1px solid #F93822;
     box-shadow: inset 0 0 0 15px #fff;
     transform: translateX(50%);
     z-index: 2;
@@ -189,7 +189,7 @@
     text-indent: 0;
 }
 .service-custom-carousel .carousel-indicators li.active {
-    border-bottom: 4px solid #ea2323;
+    border-bottom: 4px solid #F93822;
 }
 .service-custom-carousel .carousel-indicators li img {
     padding-bottom: 10px;
@@ -265,7 +265,7 @@
 }
 
 .spliting-container__text h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 .spliting-container__img {
     position: relative;
@@ -454,7 +454,7 @@
     color: #333;
 }
 .dedicated-team-options h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 .dedicated-team-options img {
     max-height: 270px;
@@ -732,7 +732,7 @@
 /* INTERNET-OF-THINGS */
 
 .internet-of-things h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .iot-banner {
@@ -888,15 +888,15 @@
         left: 50%;
         width: 90%;
         height: 1px;
-        border-top: 2px dashed #ea2323;
+        border-top: 2px dashed #F93822;
     }
     .circle-carousel .carousel-indicators li:nth-child(1)::after {
         top: 56px;
         left: 0;
         width: 20%;
         height: calc(100% - 56px);
-        border-top: 2px dashed #ea2323;
-        border-left: 2px dashed #ea2323;
+        border-top: 2px dashed #F93822;
+        border-left: 2px dashed #F93822;
         border-top-left-radius: 120px;
     }
 
@@ -913,8 +913,8 @@
         left: 80%;
         width: 20%;
         height: calc(100% - 56px);
-        border-top: 2px dashed #ea2323;
-        border-right: 2px dashed #ea2323;
+        border-top: 2px dashed #F93822;
+        border-right: 2px dashed #F93822;
         border-top-right-radius: 120px;
     }
 
@@ -932,15 +932,15 @@
         left: 50%;
         width: 90%;
         height: 1px;
-        border-top: 2px dashed #ea2323;
+        border-top: 2px dashed #F93822;
     }
     .circle-carousel .carousel-indicators li:nth-child(3)::after {
         bottom: 56px;
         left: 0;
         width: 20%;
         height: calc(100% - 56px);
-        border-bottom: 2px dashed #ea2323;
-        border-left: 2px dashed #ea2323;
+        border-bottom: 2px dashed #F93822;
+        border-left: 2px dashed #F93822;
         border-bottom-left-radius: 120px;
     }
 
@@ -957,8 +957,8 @@
         left: 80%;
         width: 20%;
         height: calc(100% - 56px);
-        border-bottom: 2px dashed #ea2323;
-        border-right: 2px dashed #ea2323;
+        border-bottom: 2px dashed #F93822;
+        border-right: 2px dashed #F93822;
         border-bottom-right-radius: 120px;
     }
 
@@ -996,7 +996,7 @@
 /* WHY OUTSOURCING */
 
 .why-outsourcing h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 .why-outsourcing-banner {
     background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/why-outsourcing/10-reasons-why-outsourcing-desktop-banner.jpg);
@@ -1182,7 +1182,7 @@
     left: 0;
     width: 12px;
     height: 64px;
-    background-color: #ea2323;
+    background-color: #F93822;
 }
 
 .outsource-benefit {
@@ -1355,7 +1355,7 @@
         content: "";
         width: 10px;
         height: 10px;
-        background-color: #ea2323;
+        background-color: #F93822;
         border-radius: 50%;
         top: 15px;
         left: -33px;
@@ -1462,9 +1462,10 @@
 
 .osd-tab__nav .dropdown-toggle::after {
     position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+    top: 48%;
+    right: 20px;
+    border: 6px solid;
+    border-color: #000 transparent transparent;
 }
 
 .osd-tab__nav .dropdown-menu {
@@ -1479,6 +1480,7 @@
     line-height: 1.88;
     margin: 0 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .osd-tab__category::after {
@@ -1486,7 +1488,7 @@
     content: "";
     width: 0;
     height: 2px;
-    background-color: #ea2323;
+    background-color: #F93822;
     transition: ease .3s;
     bottom: -5px;
     left: 0;
@@ -1541,7 +1543,7 @@
 /* WEB APPLICATION DEVELOPMENT */
 
 .web-app-development h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 .web-app-development-banner {
     background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/web-app-development/Web-Application-Development-Orientsoftware.jpg);
@@ -1566,7 +1568,7 @@
     padding: 0 5.4%;
 }
 .why-orient__content h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .why-orient .row {
@@ -1798,7 +1800,7 @@
     bottom: -10px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #ea2323
+    border-top: 10px solid #F93822
 }
 
 .testing-services-background {
@@ -1817,7 +1819,7 @@
 }
 
 #our-qa-process h3 {
-    color: #ea2323;
+    color: #F93822;
 }
 
 #our-qa-process .carousel-indicators {
@@ -1847,7 +1849,7 @@
     z-index: 2;
 }
 #our-qa-process .carousel-indicators li.active p {
-    background-color: #ea2323;
+    background-color: #F93822;
 }
 #our-qa-process .carousel-indicators li p span {
     display: none;
@@ -1926,8 +1928,8 @@
     }
     #our-qa-process .carousel-indicators li.active p {
         background-color: #fff;
-        color: #ea2323;
-        border: 2px solid #ea2323;
+        color: #F93822;
+        border: 2px solid #F93822;
     }
     #our-qa-process .carousel-indicators li p span{
         display: block;
@@ -1960,7 +1962,7 @@
         transform: translateY(-50%);
     }
     #our-qa-process .carousel-indicators li:nth-child(1).active::before {
-        border-bottom:2px solid #ea2323;
+        border-bottom:2px solid #F93822;
     }
 
     /* Style bottom left button */
@@ -1984,8 +1986,8 @@
         transform: translate(90px,60px);
     }
     #our-qa-process .carousel-indicators li:nth-child(2).active::before {
-        border-left: 2px solid #ea2323;
-        border-bottom:2px solid #ea2323;
+        border-left: 2px solid #F93822;
+        border-bottom:2px solid #F93822;
     }
 
     /* Style top left button */
@@ -2010,8 +2012,8 @@
         transform: translate(90px,0);
     }
     #our-qa-process .carousel-indicators li:nth-child(3).active::before {
-        border-left: 2px solid #ea2323;
-        border-top: 2px solid #ea2323;
+        border-left: 2px solid #F93822;
+        border-top: 2px solid #F93822;
     }
 
     /* Style top button */
@@ -2031,7 +2033,7 @@
         transform: translateY(-50%);
     }
     #our-qa-process .carousel-indicators li:nth-child(4).active::before {
-        border-bottom: 2px solid #ea2323;
+        border-bottom: 2px solid #F93822;
     }
 
     /* Style top right button */
@@ -2055,8 +2057,8 @@
         transform: translate(0,60px);
     }
     #our-qa-process .carousel-indicators li:nth-child(5).active::before {
-        border-right: 2px solid #ea2323;
-        border-top: 2px solid #ea2323;
+        border-right: 2px solid #F93822;
+        border-top: 2px solid #F93822;
     }
 
     /* Style bottom right button */
@@ -2081,8 +2083,8 @@
         transform: translate(90px,-60px);
     }
     #our-qa-process .carousel-indicators li:nth-child(6).active::before {
-        border-right: 2px solid #ea2323;
-        border-bottom: 2px solid #ea2323;
+        border-right: 2px solid #F93822;
+        border-bottom: 2px solid #F93822;
     }
 
     /* Style the arrow on the connect line */
@@ -2095,21 +2097,21 @@
         bottom: 60px;
         transform: translateY(50%);
         border-width: 12px 24px 12px 0;
-        border-color: transparent #ea2323 transparent transparent;
+        border-color: transparent #F93822 transparent transparent;
     }
     #our-qa-process .carousel-indicators li:nth-child(2).active::after {
         left: 91px;
         top: 140px;
         transform: translateX(-50%);
         border-width: 0 12px 24px 12px;
-        border-color: transparent transparent #ea2323 transparent;
+        border-color: transparent transparent #F93822 transparent;
     }
     #our-qa-process .carousel-indicators li:nth-child(3).active::after{
         top: 50%;
         left: 91px;
         transform: translateX(-50%);
         border-width: 0 12px 24px 12px;
-        border-color: transparent transparent #ea2323 transparent;
+        border-color: transparent transparent #F93822 transparent;
     }
     #our-qa-process .carousel-indicators li:nth-child(4).active::after {
         top: 60px;
@@ -2117,7 +2119,7 @@
         left: auto;
         transform: translateY(-50%);
         border-width: 12px 0 12px 24px;
-        border-color: transparent transparent transparent #ea2323;
+        border-color: transparent transparent transparent #F93822;
     }
     #our-qa-process .carousel-indicators li:nth-child(5).active::after {
         right: 91px;
@@ -2125,7 +2127,7 @@
         bottom: 140px;
         transform: translateX(50%);
         border-width: 24px 12px 0 12px;
-        border-color: #ea2323 transparent transparent transparent;
+        border-color: #F93822 transparent transparent transparent;
     }
     #our-qa-process .carousel-indicators li:nth-child(6).active::after {
         right: 91px;
@@ -2133,7 +2135,7 @@
         bottom: 50%;
         transform: translateX(50%);
         border-width: 24px 12px 0 12px;
-        border-color: #ea2323 transparent transparent transparent;
+        border-color: #F93822 transparent transparent transparent;
     }
 }
 @media(min-width: 1024px) {
@@ -2143,14 +2145,14 @@
         top: 61px;
         transform: translateY(-50%);
         border-width: 12px 0 12px 24px;
-        border-color: transparent transparent transparent #ea2323;
+        border-color: transparent transparent transparent #F93822;
     }
     #our-qa-process .carousel-indicators li:nth-child(6).active::after {
         left: 190px;
         bottom: 61px;
         transform: translateY(50%);
         border-width: 12px 24px 12px 0;
-        border-color: transparent #ea2323 transparent transparent;
+        border-color: transparent #F93822 transparent transparent;
     }
 }
 /* END QA and TESTING */
@@ -2171,7 +2173,7 @@
 .service-page-title::before {
     position: absolute;
     content: "";
-    background-color: #ea2323;
+    background-color: #F93822;
     width: 188px;
     height: 3px;
     bottom: -20px;

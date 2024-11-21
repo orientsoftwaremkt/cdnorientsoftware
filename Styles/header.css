@@ -180,7 +180,7 @@
 
 
     .menu-block.--no-background .menu-block__title:hover {
-        color: #ea2323;
+        color: #F93822;
     }
 
     .menu-block:hover .menu-block__img {
@@ -244,7 +244,7 @@
 }
 
 .header__language-en.nav-link {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .scroll-up {
@@ -416,7 +416,7 @@
 .header-container.on-scroll-background .header__language-en.nav-link,
 .header-container.white-header .header__language-en.nav-link,
 .header-container.show-dropdown-menu .header__language-en.nav-link {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .header-container.on-scroll-background .nav-link.dropdown-toggle::after,
@@ -541,7 +541,7 @@
 }
 
 .responsive .header__language-en.nav-link {
-    color: #ea2323;
+    color: #F93822;
 }
 
 .responsive .header__language-jp.nav-link {

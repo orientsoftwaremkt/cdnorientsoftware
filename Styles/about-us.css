@@ -110,7 +110,7 @@
 .about-us__divider {
     width: 100px;
     height: 3px;
-    background: #ea2323;
+    background: #F93822;
     margin: 10px 0 25px;
 }
 
@@ -316,7 +316,7 @@
 .company__card .card-header {
     background: none;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
-    border-left: 4px solid #ea2323;
+    border-left: 4px solid #F93822;
 }
 
 .company__card .btn-link {

@@ -728,6 +728,7 @@ a.see-more {
     font-size: 16px;
     padding-right: 35px;
     font-weight: 700;
+    text-decoration: none;
 }
 a.see-more::after {
     background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/spirte-arrow-icon.png);
@@ -1700,6 +1701,7 @@ img.lazy-load.loaded {
     margin-right: 10px;
     padding: 4px 12px;
     letter-spacing: -0.2px;
+    text-decoration: none;
 }
 
 .article-list__category:last-child {
@@ -1916,47 +1918,7 @@ img.lazy-load.loaded {
     margin-bottom: 60px;
 }
 
-.related-posts .owl-stage {
-    display: flex;
-}
 
-.related-posts .owl-nav button span {
-    display: none;
-}
-
-.related-posts.owl-carousel .owl-nav {
-    position: absolute;
-    width: 1060px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-.related-posts.owl-carousel .owl-nav button {
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow.svg');
-    background-size: contain;
-    background-color: transparent;
-    width: 45px;
-    height: 45px;
-}
-
-.related-posts.owl-carousel .owl-nav button:hover {
-    background-image: url('https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/icon/arrow-hover.svg');
-}
-
-.related-posts.owl-carousel .owl-nav .owl-prev {
-    transform: rotate(-90deg);
-}
-
-.related-posts.owl-carousel .owl-nav .owl-next {
-    transform: rotate(90deg);
-    float: right;
-}
-
-.related-posts.owl-carousel .owl-nav button:focus {
-    outline: none;
-}
 
 
 
@@ -2062,22 +2024,13 @@ img.lazy-load.loaded {
     }
 }
 
-@media(min-width: 1230px) {
-    .related-posts.owl-carousel .owl-nav {
-        width: 1200px;
-    }
-}
+
 
 
 
 
 /* --- BLOG DETAIL --- */
 
-.article-detail-container .osd-carousel__img img {
-    width: 100%;
-    max-height: 393px;
-    object-fit: cover;
-}
 
 .start-of-blog-post {
     line-height: 1.4;
@@ -2318,6 +2271,7 @@ a.article-detail__topic {
     border-left: 2px solid #cecece;
     color: #858585;
     font-size: 14px;
+    text-decoration: none;
     display: inline-block;
 }
 .article-detail__content-map a.active {
@@ -2958,6 +2912,7 @@ a.article-detail__topic {
 
 .case-study-list__item a,
 .case-study-list__item a:hover {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -3115,29 +3070,6 @@ a.case-study-list__item__read-more:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.case-study-detail__related-post__carousel .owl-stage {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 30px;
-}
-
-.case-study-detail__related-post__carousel .owl-dots {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.case-study-detail__related-post__carousel button.owl-dot {
-    width: 7px;
-    height: 7px;
-    background-color: #c4c4c4;
-    border-radius: 50%;
-    margin: 0 4px;
-}
-
-.case-study-detail__related-post__carousel button.owl-dot.active {
-    background-color: #161616;
 }
 
 .article-not-found {
@@ -3431,6 +3363,7 @@ a.case-study-list__item__read-more:hover {
     display: block;
     padding: 0 0 15px;
     max-height: min-content;
+    text-decoration: none;
 }
 
 .hot-news.article-list__item {
@@ -3815,7 +3748,7 @@ a.technology-list__item-name:hover {
     position: absolute;
     content: "";
     top: 13px;
-    right: 10px;
+    right: 15px;
     width: 0;
     height: 0;
     border: 6px solid transparent;
@@ -3869,7 +3802,7 @@ a.technology-list__item-name:hover {
 
 .select-items div:hover,
 .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(245, 245, 245, 1);
 }
 
 
@@ -3934,14 +3867,7 @@ a.technology-list__item-name:hover {
     background-image: linear-gradient(-90deg, #f5f5f5, transparent);
 }
 
-.trusted-clients__carousel .owl-stage {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.trusted-clients__carousel .owl-stage-outer {
-    padding-bottom: 40px;
-}
 
 .quote-mark {
     line-height: 40px;
@@ -3950,61 +3876,7 @@ a.technology-list__item-name:hover {
     transform: translate(-5px, 27px);
 }
 
-.carousel-custom-dot .owl-dots {
-    text-align: center;
-    margin-top: -15px;
-    transform: translateY(4px);
-}
 
-.carousel-custom-dot button.owl-dot {
-    width: 7px;
-    height: 7px;
-    background-color: #c4c4c4;
-    border-radius: 50%;
-    margin: 0 4px;
-}
-
-.carousel-custom-dot button.owl-dot.active {
-    background-color: #F93822;
-    width: 20px;
-    border-radius: 20px;
-}
-
-.carousel-custom-dot .owl-nav {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 115%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.carousel-custom-dot .owl-nav button.owl-next,
-.carousel-custom-dot .owl-nav button.owl-prev {
-    text-indent: 99999px;
-    background-image: url(https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/landing-page/icon/sprite-icon-arrows.png);
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
-}
-
-.carousel-custom-dot .owl-nav button.owl-prev {
-    background-position: 0 0px;
-}
-
-.carousel-custom-dot .owl-nav button.owl-next {
-    background-position: -75px 0px;
-}
-
-.carousel-custom-dot .owl-nav button.owl-prev:hover {
-    background-position: 0 -70px;
-}
-
-.carousel-custom-dot .owl-nav button.owl-next:hover {
-    background-position: -75px -70px;
-}
 
 .read-less-text {
     height: 150px;
@@ -4405,13 +4277,16 @@ h2.pillar-section-title {
     padding: 30px;
 }
 .content-background.--padding-y-high {
-    padding: 70px 30px;
+    padding: 40px 30px;
 }
 .content-background.--pos-top {
     background-position-y: top;
 }
 .content-background.--pos-bottom {
     background-position-y: bottom;
+}
+.content-background.--pos-right {
+    background-position-x: right;
 }
 .content-background.--contain {
     background-size: contain;
@@ -4465,6 +4340,10 @@ h2.pillar-section-title {
     background: linear-gradient(269.79deg, rgba(0, 0, 0, 0.2) 0.17%, rgba(0, 0, 0, 0) 64.8%), linear-gradient(180deg, rgba(0, 0, 0, 0.7) 50.37%, rgba(0, 0, 0, 0.7) 63.82%);
     backdrop-filter: blur(20px);
     color: #fff;
+}
+
+.grey-bg {
+    background: #f2f2f2;
 }
 
 .grey-box {
@@ -4879,7 +4758,7 @@ h2.pillar-section-title {
 }
 
 .confirm-line {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .red-line {
@@ -5045,7 +4924,7 @@ h2.pillar-section-title {
     }
 
     .content-background.--padding-y-high {
-        padding: 100px 50px;
+        padding: 80px 50px;
     }
 
     .contact-modal .form {

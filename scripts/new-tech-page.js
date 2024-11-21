@@ -49,7 +49,9 @@ function expandOnClick(id) {
         $(id + " .expanable-box__wrapper").scrollTop(0);
         $(id + " .expanable-box__wrapper").removeClass("d-block");
         $(id + " .expanable-box__button").text("View more");
+        $(id + " .expanable-box__title").removeClass("text-red");
     } else {
+        $(id + " .expanable-box__title").addClass("text-red");
         $(id + " .expanable-box__wrapper").addClass("d-block");
         $(id + " .expanable-box__button").text("View less");
     }
