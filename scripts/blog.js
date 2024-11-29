@@ -10,7 +10,7 @@ $(document).ready(function () {
 function initBlogCategoriesCarousel() {
     $('.blog-categories__carousel').owlCarousel({
         loop: false,
-        margin: 30,
+        margin: 15,
         dots: false,
         nav: false,
         items: 3,

@@ -14,8 +14,14 @@ jQuery(document).ready(function () {
     $(".modalPanelShareBlog").css("display", "block");
 
 
-    $(".blog-panel-share-facebook").click(function popupShareFb() {
+    $(".blog-panel-share-copylink").click(function copyLink() {
+        navigator.clipboard.writeText(location.href);
+        $(".tool-tip").addClass("show");
 
+        setTimeout(function(){$(".tool-tip").removeClass("show");}, 600)
+    });
+
+    $(".blog-panel-share-facebook").click(function popupShareFb() {
         fbShare(pageUrl, pageTitle, pageDesc, 'https://cdn.jsdelivr.net/gh/orientsoftwaremkt/cdnorientsoftware@latest/Content/Images/logo_osd.jpg', 600, 400);
     });
 

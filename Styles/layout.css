@@ -38,7 +38,7 @@ body {
     scroll-behavior: smooth;
     padding: 0 !important;
     font-family: "Nunito Sans Variable",sans-serif;
-    font-weight:400;
+    font-weight: 400;
     overflow: hidden scroll;
 }
 
@@ -468,7 +468,7 @@ footer a {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-    max-width: 980px;
+    max-width: 1010px;
 }
 
 .osd-container-fluid {
@@ -477,7 +477,7 @@ footer a {
 }
 
 .osd-hr-row {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .hr-border-bottom {
@@ -485,7 +485,7 @@ footer a {
 }
 
 .text-link {
-    color: #007bff;
+    color: #5d285f;
 }
 
 .text-link-underline {
@@ -498,7 +498,7 @@ a.text-link-underline:hover {
 
 .breadcrumb {
     text-transform: capitalize;
-    padding: 0 15px;
+    padding: 0 20px;
     font-size: 12px;
     background: none;
     margin-bottom: 0;
@@ -521,6 +521,7 @@ a.text-link-underline:hover {
 .breadcrumb a {
     text-decoration: none;
     color: inherit;
+    line-height: 19px;
 }
 
 .breadcrumb__icon {
@@ -538,6 +539,7 @@ a.text-link-underline:hover {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    line-height: 19px;
 }
 
 @media(min-width:768px) {
@@ -1035,7 +1037,10 @@ a.read-more.arrow:hover {
 
 .osd-customize-bullet--red ul li::before{
     background: #F93822;
-    top: 14px;
+    width: 4px;
+    height: 4px;
+    top: 10px;
+    left: -15px;
 }
 
 .osd-customize-bullet--light-red ul li::before{
@@ -1227,13 +1232,13 @@ a.read-more.arrow:hover {
 
 
 .main-grid {
-    max-width: 1230px;
+    max-width: 1340px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-grid__content {
@@ -1242,18 +1247,18 @@ a.read-more.arrow:hover {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-grid__article-content {
-    max-width: 815px;
+    max-width: 690px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* NEW INLINE MENU */
