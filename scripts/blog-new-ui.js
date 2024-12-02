@@ -16,7 +16,7 @@ function setTOCHeight() {
     });
 
     var tocHeight = 0;
-    tocElements.slice(0, 7).forEach(function (el) {
+    tocElements.slice(0, 6).forEach(function (el) {
         tocHeight += el.height() + marginBottom;
     });
 
@@ -51,7 +51,7 @@ function initCateCarousel() {
                 items: 5
             },
             1340: {
-                margin: 45,
+                margin: 30,
                 items: 6
             }
         }
